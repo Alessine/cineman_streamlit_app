@@ -1,230 +1,230 @@
-,movie,genre,cinema,place,movie_link,showtime,age_limit,language,rating
-0,Schachnovelle,Drama,Arthouse Le Paris,Zürich,https://www.cineman.ch/en/movie/2021/Schachnovelle/,12:15,12Y.,G,not available
-1,Nomadland,Drama,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,13:00,12/6Y.,E/gf,3.9
-2,Bigfoot Superstar,Animation,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/BigfootSuperstar/,13:20,Reservation,G,1.6
-3,Bigfoot Superstar,Animation,Kosmos,Zürich,https://www.cineman.ch/en/movie/2019/BigfootSuperstar/,13:30,Reservation,G,1.6
-4,The Croods 2,"Adventure, Animation, Children, Comedy, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2017/TheCroods2/,13:20,6Y.,G,3.9
-5,Heitere Fahne,Documentary,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/HeitereFahne/,13:20,CH/e,CH/e,not available
-6,"Hilfe, ich habe meine Freunde geschrumpft",Children,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/HilfeIchHabeMeineFreundeGeschrumpft/,13:20,Reservation,G,5.0
-7,"Hilfe, ich habe meine Freunde geschrumpft",Children,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/HilfeIchHabeMeineFreundeGeschrumpft/,13:50,Reservation,G,5.0
-8,Necista krv-greh predaka,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/NecistaKrvGrehPredaka/,13:20,16Y.,O/g,not available
-9,Vic the Viking and the Magic Sword,Animation,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/VicTheVikingAndTheMagicSword/,13:20,Reservation,G,2.0
-10,Vic the Viking and the Magic Sword,Animation,Kosmos,Zürich,https://www.cineman.ch/en/movie/2019/VicTheVikingAndTheMagicSword/,13:30,Reservation,G,2.0
-11,Dune,"Action, Adventure, Drama, Sci-fi",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,13:30,14/12Y.,E/gf,4.3
-12,Dune,"Action, Adventure, Drama, Sci-fi",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,13:50,14/12Y.,E/gf,4.3
-13,Bonjour le monde !,"Animation, Children",Houdini,Zürich,https://www.cineman.ch/en/movie/2019/BonjourLeMonde/,13:30,6/0Y.,G,not available
-14,Ostwind 5 - Der grosse Orkan,Children,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Ostwind5DerGrosseOrkan/,13:30,6Y.,G,3.9
-15,Peter Rabbit 2: The Runaway,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/PeterRabbit2/,13:30,10/6Y.,G,3.3
-16,Peter Rabbit 2: The Runaway,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/PeterRabbit2/,13:35,10/6Y.,E/gf,3.3
-17,Spirit Untamed,"Adventure, Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/SpiritUntamed/,13:30,6/3Y.,G,3.0
-18,Immer Ärger mit Grandpa,"Children, Comedy, Drama",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/TheWarWithGrandpa/,13:40,8Y.,G,3.0
-19,Paw Patrol: The Movie,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,13:40,6Y.,G,3.9
-20,Riders of Justice - Helden der Wahrscheinlichkeit,,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,13:40,16Y.,O/gf,3.3
-21,Tom & Jerry,"Adventure, Animation, Children, Comedy",Kosmos,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,13:40,8/6Y.,G,2.6
-22,Tom & Jerry,"Adventure, Animation, Children, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,13:50,8/6Y.,G,2.6
-23,Yakari - Grosse Stürme mit kleiner Donner,Animation,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Yakari/,13:40,6/0Y.,G,3.7
-24,Die Pazifistin - Gertrud Woker: Eine vergessene Heldin,Documentary,Arthouse Alba,Zürich,https://www.cineman.ch/en/movie/2021/DiePazifistinGertrudWoker/,13:45,12Y.,G,5.0
-25,"Chien pourri, la vie à Paris",Animation,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/ChienPourriLaVieAParis/,13:50,6/0Y.,G,not available
-26,The Brain,Documentary,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/TheBrain/,13:50,14/10Y.,O/g,2.8
-27,Jungle Cruise,"Action, Adventure",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/JungleCruise/,14:00,14/12Y.,G,3.0
-28,Jungle Cruise,"Action, Adventure",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2019/JungleCruise/,14:30,14/12Y.,E/gf,3.0
-29,Ostwind 5 - Der grosse Orkan,Children,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Ostwind5DerGrosseOrkan/,14:00,6Y.,G,3.9
-30,Paw Patrol: The Movie,"Animation, Children",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,14:00,6Y.,G,3.9
-31,Paw Patrol: The Movie,"Animation, Children",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,14:30,6Y.,G,3.9
-32,Paw Patrol: The Movie,"Animation, Children",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,14:00,6Y.,G,3.9
-33,Paw Patrol: The Movie,"Animation, Children",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,14:15,6Y.,G,3.9
-34,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:00,12Y.,E/gf,4.0
-35,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:00,12Y.,E/gf,4.0
-36,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:15,12Y.,G,4.0
-37,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:15,12Y.,E/gf,4.0
-38,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:30,12Y.,E/gf,4.0
-39,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:30,12Y.,E/gf,4.0
-40,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:30,12Y.,G,4.0
-41,Tom & Jerry,"Adventure, Animation, Children, Comedy",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:00,8/6Y.,G,2.6
-42,Tom & Jerry,"Adventure, Animation, Children, Comedy",Stüssihof,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:00,8/6Y.,G,2.6
-43,Tom & Jerry,"Adventure, Animation, Children, Comedy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:15,8/6Y.,G,2.6
-44,Tom & Jerry,"Adventure, Animation, Children, Comedy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:30,8/6Y.,G,2.6
-45,Tom & Jerry,"Adventure, Animation, Children, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:30,8/6Y.,G,2.6
-46,Vic the Viking and the Magic Sword,Animation,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2019/VicTheVikingAndTheMagicSword/,14:00,6Y.,G,2.0
-47,Vic the Viking and the Magic Sword,Animation,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2019/VicTheVikingAndTheMagicSword/,14:30,6Y.,G,2.0
-48,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,14:10,14/12Y.,G,4.3
-49,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,14:20,14/12Y.,E/gf,4.3
-50,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,14:30,14/12Y.,E/gf,4.3
-51,Raya and the Last Dragon,"Action, Adventure, Animation",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/RayaAndTheLastDragon/,14:10,6Y.,G,3.9
-52,"Wanda, mein Wunder","Comedy, Drama",Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2019/WandaMeinWunder/,14:10,14/12Y.,O/g,3.4
-53,Peter Rabbit 2: The Runaway,"Animation, Children",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/PeterRabbit2/,14:15,10/6Y.,G,3.3
-54,Shaun the Sheep Movie,"Adventure, Animation, Children, Comedy",Xenix,Zürich,https://www.cineman.ch/en/movie/2015/ShaunTheSheepTheMovie/,14:15,6/0Y.,G,4.1
-55,Space Jam: A New Legacy,"Animation, Comedy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/SpaceJam2/,14:15,10/8Y.,G,3.7
-56,Space Jam: A New Legacy,"Animation, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/SpaceJam2/,14:20,10/8Y.,G,3.7
-57,Siriri,Documentary,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2021/Siriri/,14:20,16Y.,O/g,5.0
-58,Mila,"Comedy, Drama",Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/Mila/,14:30,16Y.,O/g,2.5
-59,The Croods 2,"Adventure, Animation, Children, Comedy, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2017/TheCroods2/,14:30,6Y.,G,3.9
-60,Generation Beziehungsunfähig,Comedy,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/GenerationBeziehungsunfaehig/,14:30,12Y.,G,2.3
-61,"Hilfe, ich habe meine Freunde geschrumpft",Children,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/HilfeIchHabeMeineFreundeGeschrumpft/,14:30,6Y.,G,5.0
-62,After We Fell,Romance,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,14:45,14Y.,G,3.2
-63,Free Guy,"Action, Adventure, Comedy, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,14:45,14/12Y.,G,3.6
-64,Chungking Express,,Arthouse Uto,Zürich,https://www.cineman.ch/en/showtimes/cinema/arthouse-uto-zurich/335/,15:00,16Y.,O/g,
-65,El verdugo,,Filmpodium,Zürich,https://www.cineman.ch/en/showtimes/cinema/filmpodium-zurich/421/,15:00,S/pg,S/pg,
-66,Monte Verità,Drama,Arthouse Le Paris,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,15:00,14Y.,G,3.7
-67,Monte Verità,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,15:50,14Y.,G/e,3.7
-68,Paw Patrol: The Movie,"Animation, Children",Stüssihof,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,15:00,6Y.,G,3.9
-69,Paw Patrol: The Movie,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,15:40,6Y.,G,3.9
-70,The Green Knight,"Drama, Fantasy, Romance",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/TheGreenKnight/,15:00,Reservation,E/gf,2.7
-71,Tom & Jerry,"Adventure, Animation, Children, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,15:25,8/6Y.,G,2.6
-72,Bigfoot Superstar,Animation,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/BigfootSuperstar/,15:30,8Y.,G,1.6
-73,The Croods 2,"Adventure, Animation, Children, Comedy, Fantasy",Houdini,Zürich,https://www.cineman.ch/en/movie/2017/TheCroods2/,15:30,6Y.,G,3.9
-74,Riders of Justice - Helden der Wahrscheinlichkeit,,Arthouse Alba,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,15:30,16Y.,O/gf,3.3
-75,Riders of Justice - Helden der Wahrscheinlichkeit,,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,15:40,16Y.,O/gf,3.3
-76,Free Guy,"Action, Adventure, Comedy, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,15:35,14/12Y.,G,3.6
-77,Druk,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Druk/,15:40,Reservation,O/gf,4.2
-78,The Father,Drama,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2020/TheFather/,15:40,14/12Y.,E/gf,4.4
-79,Peter Rabbit 2: The Runaway,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/PeterRabbit2/,15:45,10/6Y.,G,3.3
-80,Spirit Untamed,"Adventure, Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/SpiritUntamed/,15:45,6/3Y.,G,3.0
-81,Bekenntnisse des Hochstaplers Felix Krull,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,15:50,Reservation,G,3.7
-82,Billie,"Documentary, Music",Houdini,Zürich,https://www.cineman.ch/en/movie/2019/Billie/,15:50,16/10Y.,E/g,4.7
-83,La Nuit des rois,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/LaNuitDesRois/,15:50,16Y.,O/gf,2.5
-84,Ostwind 5 - Der grosse Orkan,Children,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Ostwind5DerGrosseOrkan/,15:50,6Y.,G,3.9
-85,Space Jam: A New Legacy,"Animation, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/SpaceJam2/,15:55,10/8Y.,E/gf,3.7
-86,After We Fell,Romance,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,16:00,14Y.,G,3.2
-87,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:00,Reservation,E/gf,4.3
-88,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:15,Reservation,G,4.3
-89,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:30,Reservation,E/gf,4.3
-90,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:45,Reservation,E/gf,4.3
-91,Dune,"Action, Adventure, Drama, Sci-fi",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:50,Reservation,E/gf,4.3
-92,Nomadland,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,16:00,12/6Y.,E/gf,3.9
-93,Nomadland,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,16:10,12/6Y.,E/gf,3.9
-94,Billie,"Documentary, Music",Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2019/Billie/,16:10,16/10Y.,E/gf,4.7
-95,Die Pazifistin - Gertrud Woker: Eine vergessene Heldin,Documentary,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2021/DiePazifistinGertrudWoker/,16:10,12Y.,G,5.0
-96,La Fine Fleur,"Comedy, Drama",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/LaFineFleur/,16:10,Reservation,F/g,4.5
-97,Bekenntnisse des Hochstaplers Felix Krull,Drama,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,16:30,12Y.,G,3.7
-98,Gaza mon amour,"Comedy, Drama, Romance",Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/Apollo/,16:30,16/12Y.,O/gf,not available
-99,Heitere Fahne,Documentary,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/HeitereFahne/,16:30,CH/e,CH/e,not available
-100,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,16:30,16Y.,E/gf,3.5
-101,Programm 1,,Xenix,Zürich,https://www.cineman.ch/en/showtimes/cinema/xenix-zurich/343/,16:30,O,O,
-102,The Father,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/TheFather/,16:30,14/12Y.,E/gf,4.4
-103,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:00,14/12Y.,G,4.3
-104,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:00,14/12Y.,E/gf,4.3
-105,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:00,14/12Y.,E/gf,4.3
-106,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:30,14/12Y.,G,4.3
-107,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:40,14/12Y.,E/gf,4.3
-108,Dune,"Action, Adventure, Drama, Sci-fi",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:10,14/12Y.,E/gf,4.3
-109,Jungle Cruise,"Action, Adventure",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/JungleCruise/,17:00,14/12Y.,G,3.0
-110,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:00,12Y.,E/gf,4.0
-111,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:15,12Y.,G,4.0
-112,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:30,12Y.,G,4.0
-113,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:30,12Y.,E/gf,4.0
-114,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:15,12Y.,E/gf,4.0
-115,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:25,12Y.,E/gf,4.0
-116,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:50,12Y.,G,4.0
-117,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:30,12Y.,E/gf,4.0
-118,Fast & Furious 9,"Action, Adventure, Crime, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/FastandFurious9/,17:10,16/12Y.,G,3.6
-119,Fast & Furious 9,"Action, Adventure, Crime, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2019/FastandFurious9/,17:15,16/12Y.,G,3.6
-120,Free Guy,"Action, Adventure, Comedy, Sci-fi",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:15,14/12Y.,E/gf,3.6
-121,Free Guy,"Action, Adventure, Comedy, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:30,14/12Y.,E/gf,3.6
-122,Free Guy,"Action, Adventure, Comedy, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:50,14/12Y.,G,3.6
-123,Free Guy,"Action, Adventure, Comedy, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:45,14/12Y.,E/gf,3.6
-124,Riders of Justice - Helden der Wahrscheinlichkeit,,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,17:15,16Y.,G,3.3
-125,After We Fell,Romance,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,17:30,14Y.,G,3.2
-126,Cash Truck,"Action, Crime",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/WrathOfMan/,17:30,16Y.,E/gf,3.7
-127,Escape Room 2: no way out,"Horror, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/EscapeRoom2/,17:30,16Y.,G,3.6
-128,Escape Room 2: no way out,"Horror, Thriller",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/EscapeRoom2/,17:30,16Y.,E/gf,3.6
-129,Kaiserschmarrndrama,Crime,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Kaiserschmarrndrama/,17:30,12Y.,G,3.0
-130,Prisoner 760,Drama,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/Prisoner760/,17:40,16Y.,G,4.5
-131,In the Mood for Love,,Arthouse Uto,Zürich,https://www.cineman.ch/en/movie/2000/InTheMoodForLove/,17:45,16Y.,O/g,4.2
-132,The Organ Donor,Horror,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/SawIX/,17:45,18Y.,G,2.5
-133,The Forever Purge,"Action, Horror, Sci-fi, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/TheForeverPurge/,17:45,16Y.,G,3.1
-134,French Exit,Drama,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2020/FrenchExit/,17:50,14Y.,E/gf,3.0
-135,Monte Verità,Drama,Arthouse Le Paris,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,17:50,14Y.,G,3.7
-136,The Father,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/TheFather/,17:50,14/12Y.,E/gf,4.4
-137,Toma,"Drama, Music, History",Kosmos,Zürich,https://www.cineman.ch/en/movie/2021/Toma/,17:50,Reservation,O/g,not available
-138,Bekenntnisse des Hochstaplers Felix Krull,Drama,Stüssihof,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,18:00,12Y.,G,3.7
-139,Don't Breathe 2,"Horror, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/DontBreathe2/,18:00,16Y.,G,2.4
-140,Fluchtgefahr,,Filmpodium,Zürich,https://www.cineman.ch/en/showtimes/cinema/filmpodium-zurich/421/,18:00,O/g,O/g,
-141,Old,"Mystery, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/Old/,18:00,14Y.,G,2.4
-142,Felkészülés meghatározatlan ideig tartó együttlétre,Drama,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/FelkeszuelesMeghatarozatlanIdeigTartoEgyuettletre/,18:00,16Y.,O/gf,4.0
-143,Programm 2,,Xenix,Zürich,https://www.cineman.ch/en/showtimes/cinema/xenix-zurich/343/,18:00,O,O,
-144,Riders of Justice - Helden der Wahrscheinlichkeit,,Arthouse Alba,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,18:00,16Y.,O/gf,3.3
-145,Riders of Justice - Helden der Wahrscheinlichkeit,,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,18:10,16Y.,G,3.3
-146,Riders of Justice - Helden der Wahrscheinlichkeit,,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,18:30,16Y.,O/gf,3.3
-147,Cash Truck,"Action, Crime",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/WrathOfMan/,18:10,16Y.,G,3.7
-148,Heitere Fahne,Documentary,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/HeitereFahne/,18:10,CH/e,CH/e,not available
-149,Monte Verità,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,18:10,14Y.,G/e,3.7
-150,Nuevo orden,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/NuevoOrden/,18:10,16Y.,S/pgf,2.8
-151,After We Fell,Romance,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,18:20,14Y.,G,3.2
-152,Billie,"Documentary, Music",Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2019/Billie/,18:20,16/10Y.,E/gf,4.7
-153,Druk,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Druk/,18:20,Reservation,O/gf,4.2
-154,La Fine Fleur,"Comedy, Drama",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/LaFineFleur/,18:20,Reservation,F/g,4.5
-155,Tides,"Sci-fi, Thriller",Kosmos,Zürich,https://www.cineman.ch/en/movie/2021/tides/,18:20,Reservation,E/g,3.8
-156,Die Pazifistin - Gertrud Woker: Eine vergessene Heldin,Documentary,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2021/DiePazifistinGertrudWoker/,18:30,12Y.,G,5.0
-157,Gaza mon amour,"Comedy, Drama, Romance",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Apollo/,18:30,16/12Y.,O/gf,not available
-158,Nomadland,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,18:30,12/6Y.,E/gf,3.9
-159,Nomadland,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,18:40,12/6Y.,E/gf,3.9
-160,Candyman,Horror,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Candyman/,18:40,16Y.,G,4.0
-161,"Quo Vadis, Aida?","Drama, War",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/QuoVadisAida/,18:40,14/12Y.,O/gf,4.2
-162,Auf die eigene Art,Documentary,Stüssihof,Zürich,https://www.cineman.ch/en/movie/2021/AufDieEigeneArt/,19:00,10Y.,O/g,not available
-163,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,19:30,14/12Y.,E/gf,4.3
-164,2046,"Drama, Fantasy, Romance, Sci-fi",Arthouse Uto,Zürich,https://www.cineman.ch/en/movie/2004/2046/,20:00,16Y.,O/g,3.8
-165,Bekenntnisse des Hochstaplers Felix Krull,Drama,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,20:00,12Y.,G,3.7
-166,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:00,14/12Y.,E/gf,4.3
-167,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:00,14/12Y.,E/gf,4.3
-168,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:10,14/12Y.,G,4.3
-169,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:15,14/12Y.,G,4.3
-170,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:15,14/12Y.,G,4.3
-171,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:30,14/12Y.,G,4.3
-172,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:30,14/12Y.,E/gf,4.3
-173,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:15,14/12Y.,E/gf,4.3
-174,Dune,"Action, Adventure, Drama, Sci-fi",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:20,14/12Y.,E/gf,4.3
-175,Dune,"Action, Adventure, Drama, Sci-fi",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:30,14/12Y.,E/gf,4.3
-176,Fabian oder der Gang vor die Hunde,,Houdini,Zürich,https://www.cineman.ch/en/movie/2021/FabianoderderGangvordieHunde/,20:00,14/12Y.,G,5.0
-177,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,20:00,16Y.,E/gf,3.5
-178,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,20:15,16Y.,G,3.5
-179,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,20:30,16Y.,G,3.5
-180,Programm 3,,Xenix,Zürich,https://www.cineman.ch/en/showtimes/cinema/xenix-zurich/343/,20:00,O,O,
-181,Les 2 Alfred,Comedy,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/LesDeuxAlfred/,20:10,12/8Y.,F/g,3.0
-182,Fast & Furious 9,"Action, Adventure, Crime, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/FastandFurious9/,20:15,16/12Y.,G,3.6
-183,Fast & Furious 9,"Action, Adventure, Crime, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2019/FastandFurious9/,20:30,16/12Y.,G,3.6
-184,Riders of Justice - Helden der Wahrscheinlichkeit,,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:15,16Y.,G,3.3
-185,Riders of Justice - Helden der Wahrscheinlichkeit,,Arthouse Alba,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:30,16Y.,O/gf,3.3
-186,Riders of Justice - Helden der Wahrscheinlichkeit,,blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:30,16Y.,O/gf,3.3
-187,Riders of Justice - Helden der Wahrscheinlichkeit,,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:50,16Y.,G,3.3
-188,The Organ Donor,Horror,blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2020/SawIX/,20:15,18Y.,E/gf,2.5
-189,The Organ Donor,Horror,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/SawIX/,20:45,18Y.,G,2.5
-190,OSS 117 : Alerte rouge en Afrique noire,"Action, Adventure, Comedy",Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2021/OSS117AlerteRougeEnAfriqueNoire/,20:20,12/10Y.,F,3.3
-191,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:20,12Y.,E/gf,4.0
-192,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:30,12Y.,G,4.0
-193,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:30,12Y.,E/gf,4.0
-194,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:30,12Y.,E/gf,4.0
-195,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:45,12Y.,G,4.0
-196,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:45,12Y.,E/gf,4.0
-197,The Suicide Squad,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/TheSuicideSquat/,20:25,16Y.,G,3.6
-198,After We Fell,Romance,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,20:30,14Y.,G,3.2
-199,After We Fell,Romance,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,20:50,14Y.,G,3.2
-200,Candyman,Horror,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Candyman/,20:30,16Y.,E/gf,4.0
-201,Generation Beziehungsunfähig,Comedy,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/GenerationBeziehungsunfaehig/,20:30,12Y.,G,2.3
-202,Monte Verità,Drama,Arthouse Le Paris,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,20:30,14Y.,G,3.7
-203,Monte Verità,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,20:40,14Y.,G/e,3.7
-204,La Nuit des rois,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/LaNuitDesRois/,20:30,16Y.,O/gf,2.5
-205,Nomadland,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,20:30,Reservation,E/gf,3.9
-206,Nomadland,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,20:50,Reservation,E/gf,3.9
-207,Felkészülés meghatározatlan ideig tartó együttlétre,Drama,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/FelkeszuelesMeghatarozatlanIdeigTartoEgyuettletre/,20:30,16Y.,O/gf,4.0
-208,Prisoner 760,Drama,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/Prisoner760/,20:35,16Y.,G,4.5
-209,Billie,"Documentary, Music",Houdini,Zürich,https://www.cineman.ch/en/movie/2019/Billie/,20:40,16/10Y.,E/g,4.7
-210,The Conjuring 3,Horror,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/TheConjuring3/,20:40,16Y.,G,3.8
-211,Nuevo orden,Drama,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2020/NuevoOrden/,20:40,16Y.,S/pgf,2.8
-212,Old,"Mystery, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/Old/,20:40,14Y.,G,2.4
-213,Toma,"Drama, Music, History",Kosmos,Zürich,https://www.cineman.ch/en/movie/2021/Toma/,20:40,Reservation,O/g,not available
-214,Black Widow,"Action, Adventure, Sci-fi",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/BlackWidow/,20:45,12Y.,E/gf,3.9
-215,Cash Truck,"Action, Crime",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/WrathOfMan/,20:45,16Y.,G,3.7
-216,Don't Breathe 2,"Horror, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/DontBreathe2/,20:45,16Y.,G,2.4
-217,Free Guy,"Action, Adventure, Comedy, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,20:45,14/12Y.,E/gf,3.6
-218,"Los jueves, milagro",,Filmpodium,Zürich,https://www.cineman.ch/en/showtimes/cinema/filmpodium-zurich/421/,20:45,S/pg,S/pg,
-219,Druk,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Druk/,20:50,Reservation,O/gf,4.2
-220,Escape Room 2: no way out,"Horror, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/EscapeRoom2/,20:50,16Y.,G,3.6
-221,The Forever Purge,"Action, Horror, Sci-fi, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/TheForeverPurge/,20:55,16Y.,G,3.1
-222,Bekenntnisse des Hochstaplers Felix Krull,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,21:00,Reservation,G,3.7
-223,Don't Breathe 2,"Horror, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/DontBreathe2/,21:00,16Y.,G,2.4
-224,Fantoche: Best-of Fantoche 2021,,Riffraff,Zürich,https://www.cineman.ch/en/showtimes/cinema/riffraff-zurich/351/,21:00,16Y.,O,
-225,French Exit,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/FrenchExit/,21:00,Reservation,E/gf,3.0
-226,Riders of Justice - Helden der Wahrscheinlichkeit,,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,21:00,16Y.,O/gf,3.3
-227,The Organ Donor,Horror,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/SawIX/,21:00,18Y.,G,2.5
-228,The Father,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/TheFather/,21:00,14/12Y.,E/gf,4.4
+,movie,genre,cinema,place,movie_link,showtime,date,age_limit,language,rating
+0,Schachnovelle,Drama,Arthouse Le Paris,Zürich,https://www.cineman.ch/en/movie/2021/Schachnovelle/,12:15,2021-09-19,12Y.,G,not available
+1,Nomadland,Drama,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,13:00,2021-09-19,12/6Y.,E/gf,3.9
+2,Bigfoot Superstar,Animation,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/BigfootSuperstar/,13:20,2021-09-19,8/6Y.,G,1.6
+3,Bigfoot Superstar,Animation,Kosmos,Zürich,https://www.cineman.ch/en/movie/2019/BigfootSuperstar/,13:30,2021-09-19,8/6Y.,G,1.6
+4,The Croods 2,"Adventure, Animation, Children, Comedy, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2017/TheCroods2/,13:20,2021-09-19,6Y.,G,3.9
+5,Heitere Fahne,Documentary,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/HeitereFahne/,13:20,2021-09-19,none,CH/e,not available
+6,"Hilfe, ich habe meine Freunde geschrumpft",Children,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/HilfeIchHabeMeineFreundeGeschrumpft/,13:20,2021-09-19,6/4Y.,G,5.0
+7,"Hilfe, ich habe meine Freunde geschrumpft",Children,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/HilfeIchHabeMeineFreundeGeschrumpft/,13:50,2021-09-19,6/4Y.,G,5.0
+8,Necista krv-greh predaka,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/NecistaKrvGrehPredaka/,13:20,2021-09-19,16Y.,O/g,not available
+9,Vic the Viking and the Magic Sword,Animation,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/VicTheVikingAndTheMagicSword/,13:20,2021-09-19,6Y.,G,2.0
+10,Vic the Viking and the Magic Sword,Animation,Kosmos,Zürich,https://www.cineman.ch/en/movie/2019/VicTheVikingAndTheMagicSword/,13:30,2021-09-19,6Y.,G,2.0
+11,Dune,"Action, Adventure, Drama, Sci-fi",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,13:30,2021-09-19,14/12Y.,E/gf,4.3
+12,Dune,"Action, Adventure, Drama, Sci-fi",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,13:50,2021-09-19,14/12Y.,E/gf,4.3
+13,Bonjour le monde !,"Animation, Children",Houdini,Zürich,https://www.cineman.ch/en/movie/2019/BonjourLeMonde/,13:30,2021-09-19,6/0Y.,G,not available
+14,Ostwind 5 - Der grosse Orkan,Children,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Ostwind5DerGrosseOrkan/,13:30,2021-09-19,6Y.,G,3.9
+15,Peter Rabbit 2: The Runaway,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/PeterRabbit2/,13:30,2021-09-19,10/6Y.,G,3.3
+16,Peter Rabbit 2: The Runaway,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/PeterRabbit2/,13:35,2021-09-19,10/6Y.,E/gf,3.3
+17,Spirit Untamed,"Adventure, Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/SpiritUntamed/,13:30,2021-09-19,6/3Y.,G,3.0
+18,Immer Ärger mit Grandpa,"Children, Comedy, Drama",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/TheWarWithGrandpa/,13:40,2021-09-19,8Y.,G,3.0
+19,Paw Patrol: The Movie,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,13:40,2021-09-19,6Y.,G,3.9
+20,Riders of Justice - Helden der Wahrscheinlichkeit,,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,13:40,2021-09-19,16Y.,O/gf,3.3
+21,Tom & Jerry,"Adventure, Animation, Children, Comedy",Kosmos,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,13:40,2021-09-19,8/6Y.,G,2.6
+22,Tom & Jerry,"Adventure, Animation, Children, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,13:50,2021-09-19,8/6Y.,G,2.6
+23,Yakari - Grosse Stürme mit kleiner Donner,Animation,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Yakari/,13:40,2021-09-19,6/0Y.,G,3.7
+24,Die Pazifistin - Gertrud Woker: Eine vergessene Heldin,Documentary,Arthouse Alba,Zürich,https://www.cineman.ch/en/movie/2021/DiePazifistinGertrudWoker/,13:45,2021-09-19,12Y.,G,5.0
+25,"Chien pourri, la vie à Paris",Animation,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/ChienPourriLaVieAParis/,13:50,2021-09-19,6/0Y.,G,not available
+26,The Brain,Documentary,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/TheBrain/,13:50,2021-09-19,14/10Y.,O/g,2.8
+27,Jungle Cruise,"Action, Adventure",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/JungleCruise/,14:00,2021-09-19,14/12Y.,G,3.0
+28,Jungle Cruise,"Action, Adventure",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2019/JungleCruise/,14:30,2021-09-19,14/12Y.,E/gf,3.0
+29,Ostwind 5 - Der grosse Orkan,Children,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Ostwind5DerGrosseOrkan/,14:00,2021-09-19,6Y.,G,3.9
+30,Paw Patrol: The Movie,"Animation, Children",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,14:00,2021-09-19,6Y.,G,3.9
+31,Paw Patrol: The Movie,"Animation, Children",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,14:30,2021-09-19,6Y.,G,3.9
+32,Paw Patrol: The Movie,"Animation, Children",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,14:00,2021-09-19,6Y.,G,3.9
+33,Paw Patrol: The Movie,"Animation, Children",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,14:15,2021-09-19,6Y.,G,3.9
+34,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:00,2021-09-19,12Y.,E/gf,4.0
+35,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:00,2021-09-19,12Y.,E/gf,4.0
+36,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:15,2021-09-19,12Y.,G,4.0
+37,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:15,2021-09-19,12Y.,E/gf,4.0
+38,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:30,2021-09-19,12Y.,E/gf,4.0
+39,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:30,2021-09-19,12Y.,E/gf,4.0
+40,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,14:30,2021-09-19,12Y.,G,4.0
+41,Tom & Jerry,"Adventure, Animation, Children, Comedy",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:00,2021-09-19,8/6Y.,G,2.6
+42,Tom & Jerry,"Adventure, Animation, Children, Comedy",Stüssihof,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:00,2021-09-19,8/6Y.,G,2.6
+43,Tom & Jerry,"Adventure, Animation, Children, Comedy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:15,2021-09-19,8/6Y.,G,2.6
+44,Tom & Jerry,"Adventure, Animation, Children, Comedy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:30,2021-09-19,8/6Y.,G,2.6
+45,Tom & Jerry,"Adventure, Animation, Children, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,14:30,2021-09-19,8/6Y.,G,2.6
+46,Vic the Viking and the Magic Sword,Animation,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2019/VicTheVikingAndTheMagicSword/,14:00,2021-09-19,6Y.,G,2.0
+47,Vic the Viking and the Magic Sword,Animation,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2019/VicTheVikingAndTheMagicSword/,14:30,2021-09-19,6Y.,G,2.0
+48,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,14:10,2021-09-19,14/12Y.,G,4.3
+49,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,14:20,2021-09-19,14/12Y.,E/gf,4.3
+50,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,14:30,2021-09-19,14/12Y.,E/gf,4.3
+51,Raya and the Last Dragon,"Action, Adventure, Animation",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/RayaAndTheLastDragon/,14:10,2021-09-19,6Y.,G,3.9
+52,"Wanda, mein Wunder","Comedy, Drama",Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2019/WandaMeinWunder/,14:10,2021-09-19,14/12Y.,O/g,3.4
+53,Peter Rabbit 2: The Runaway,"Animation, Children",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/PeterRabbit2/,14:15,2021-09-19,10/6Y.,G,3.3
+54,Shaun the Sheep Movie,"Adventure, Animation, Children, Comedy",Xenix,Zürich,https://www.cineman.ch/en/movie/2015/ShaunTheSheepTheMovie/,14:15,2021-09-19,6/0Y.,G,4.1
+55,Space Jam: A New Legacy,"Animation, Comedy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/SpaceJam2/,14:15,2021-09-19,10/8Y.,G,3.7
+56,Space Jam: A New Legacy,"Animation, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/SpaceJam2/,14:20,2021-09-19,10/8Y.,G,3.7
+57,Siriri,Documentary,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2021/Siriri/,14:20,2021-09-19,16Y.,O/g,5.0
+58,Mila,"Comedy, Drama",Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/Mila/,14:30,2021-09-19,16Y.,O/g,2.5
+59,The Croods 2,"Adventure, Animation, Children, Comedy, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2017/TheCroods2/,14:30,2021-09-19,6Y.,G,3.9
+60,Generation Beziehungsunfähig,Comedy,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/GenerationBeziehungsunfaehig/,14:30,2021-09-19,12Y.,G,2.3
+61,"Hilfe, ich habe meine Freunde geschrumpft",Children,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/HilfeIchHabeMeineFreundeGeschrumpft/,14:30,2021-09-19,6Y.,G,5.0
+62,After We Fell,Romance,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,14:45,2021-09-19,14Y.,G,3.2
+63,Free Guy,"Action, Adventure, Comedy, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,14:45,2021-09-19,14/12Y.,G,3.6
+64,Chungking Express,,Arthouse Uto,Zürich,https://www.cineman.ch/en/showtimes/cinema/arthouse-uto-zurich/335/,15:00,2021-09-19,16Y.,O/g,
+65,El verdugo,,Filmpodium,Zürich,https://www.cineman.ch/en/showtimes/cinema/filmpodium-zurich/421/,15:00,2021-09-19,none,S/pg,
+66,Monte Verità,Drama,Arthouse Le Paris,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,15:00,2021-09-19,14Y.,G,3.7
+67,Monte Verità,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,15:50,2021-09-19,14Y.,G/e,3.7
+68,Paw Patrol: The Movie,"Animation, Children",Stüssihof,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,15:00,2021-09-19,6Y.,G,3.9
+69,Paw Patrol: The Movie,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/PAWPatrol/,15:40,2021-09-19,6Y.,G,3.9
+70,The Green Knight,"Drama, Fantasy, Romance",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/TheGreenKnight/,15:00,2021-09-19,16Y.,E/gf,2.7
+71,Tom & Jerry,"Adventure, Animation, Children, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/TomJerry/,15:25,2021-09-19,8/6Y.,G,2.6
+72,Bigfoot Superstar,Animation,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/BigfootSuperstar/,15:30,2021-09-19,8Y.,G,1.6
+73,The Croods 2,"Adventure, Animation, Children, Comedy, Fantasy",Houdini,Zürich,https://www.cineman.ch/en/movie/2017/TheCroods2/,15:30,2021-09-19,6Y.,G,3.9
+74,Riders of Justice - Helden der Wahrscheinlichkeit,,Arthouse Alba,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,15:30,2021-09-19,16Y.,O/gf,3.3
+75,Riders of Justice - Helden der Wahrscheinlichkeit,,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,15:40,2021-09-19,16Y.,O/gf,3.3
+76,Free Guy,"Action, Adventure, Comedy, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,15:35,2021-09-19,14/12Y.,G,3.6
+77,Druk,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Druk/,15:40,2021-09-19,14Y.,O/gf,4.2
+78,The Father,Drama,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2020/TheFather/,15:40,2021-09-19,14/12Y.,E/gf,4.4
+79,Peter Rabbit 2: The Runaway,"Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/PeterRabbit2/,15:45,2021-09-19,10/6Y.,G,3.3
+80,Spirit Untamed,"Adventure, Animation, Children",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/SpiritUntamed/,15:45,2021-09-19,6/3Y.,G,3.0
+81,Bekenntnisse des Hochstaplers Felix Krull,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,15:50,2021-09-19,12Y.,G,3.7
+82,Billie,"Documentary, Music",Houdini,Zürich,https://www.cineman.ch/en/movie/2019/Billie/,15:50,2021-09-19,16/10Y.,E/g,4.7
+83,La Nuit des rois,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/LaNuitDesRois/,15:50,2021-09-19,16Y.,O/gf,2.5
+84,Ostwind 5 - Der grosse Orkan,Children,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Ostwind5DerGrosseOrkan/,15:50,2021-09-19,6Y.,G,3.9
+85,Space Jam: A New Legacy,"Animation, Comedy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/SpaceJam2/,15:55,2021-09-19,10/8Y.,E/gf,3.7
+86,After We Fell,Romance,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,16:00,2021-09-19,14Y.,G,3.2
+87,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:00,2021-09-19,14/12Y.,E/gf,4.3
+88,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:15,2021-09-19,14/12Y.,G,4.3
+89,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:30,2021-09-19,14/12Y.,E/gf,4.3
+90,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:45,2021-09-19,14/12Y.,E/gf,4.3
+91,Dune,"Action, Adventure, Drama, Sci-fi",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,16:50,2021-09-19,14/12Y.,E/gf,4.3
+92,Nomadland,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,16:00,2021-09-19,12/6Y.,E/gf,3.9
+93,Nomadland,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,16:10,2021-09-19,12/6Y.,E/gf,3.9
+94,Billie,"Documentary, Music",Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2019/Billie/,16:10,2021-09-19,16/10Y.,E/gf,4.7
+95,Die Pazifistin - Gertrud Woker: Eine vergessene Heldin,Documentary,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2021/DiePazifistinGertrudWoker/,16:10,2021-09-19,12Y.,G,5.0
+96,La Fine Fleur,"Comedy, Drama",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/LaFineFleur/,16:10,2021-09-19,14/6Y.,F/g,4.5
+97,Bekenntnisse des Hochstaplers Felix Krull,Drama,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,16:30,2021-09-19,12Y.,G,3.7
+98,Gaza mon amour,"Comedy, Drama, Romance",Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/Apollo/,16:30,2021-09-19,16/12Y.,O/gf,not available
+99,Heitere Fahne,Documentary,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/HeitereFahne/,16:30,2021-09-19,none,CH/e,not available
+100,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,16:30,2021-09-19,16Y.,E/gf,3.5
+101,Programm 1,,Xenix,Zürich,https://www.cineman.ch/en/showtimes/cinema/xenix-zurich/343/,16:30,2021-09-19,none,O,
+102,The Father,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/TheFather/,16:30,2021-09-19,14/12Y.,E/gf,4.4
+103,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:00,2021-09-19,14/12Y.,G,4.3
+104,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:00,2021-09-19,14/12Y.,E/gf,4.3
+105,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:00,2021-09-19,14/12Y.,E/gf,4.3
+106,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:30,2021-09-19,14/12Y.,G,4.3
+107,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:40,2021-09-19,14/12Y.,E/gf,4.3
+108,Dune,"Action, Adventure, Drama, Sci-fi",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,17:10,2021-09-19,14/12Y.,E/gf,4.3
+109,Jungle Cruise,"Action, Adventure",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/JungleCruise/,17:00,2021-09-19,14/12Y.,G,3.0
+110,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:00,2021-09-19,12Y.,E/gf,4.0
+111,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:15,2021-09-19,12Y.,G,4.0
+112,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:30,2021-09-19,12Y.,G,4.0
+113,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:30,2021-09-19,12Y.,E/gf,4.0
+114,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:15,2021-09-19,12Y.,E/gf,4.0
+115,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:25,2021-09-19,12Y.,E/gf,4.0
+116,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:50,2021-09-19,12Y.,G,4.0
+117,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:30,2021-09-19,12Y.,E/gf,4.0
+118,Fast & Furious 9,"Action, Adventure, Crime, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/FastandFurious9/,17:10,2021-09-19,16/12Y.,G,3.6
+119,Fast & Furious 9,"Action, Adventure, Crime, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2019/FastandFurious9/,17:15,2021-09-19,16/12Y.,G,3.6
+120,Free Guy,"Action, Adventure, Comedy, Sci-fi",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:15,2021-09-19,14/12Y.,E/gf,3.6
+121,Free Guy,"Action, Adventure, Comedy, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:30,2021-09-19,14/12Y.,E/gf,3.6
+122,Free Guy,"Action, Adventure, Comedy, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:50,2021-09-19,14/12Y.,G,3.6
+123,Free Guy,"Action, Adventure, Comedy, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:45,2021-09-19,14/12Y.,E/gf,3.6
+124,Riders of Justice - Helden der Wahrscheinlichkeit,,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,17:15,2021-09-19,16Y.,G,3.3
+125,After We Fell,Romance,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,17:30,2021-09-19,14Y.,G,3.2
+126,Cash Truck,"Action, Crime",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/WrathOfMan/,17:30,2021-09-19,16Y.,E/gf,3.7
+127,Escape Room 2: no way out,"Horror, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/EscapeRoom2/,17:30,2021-09-19,16Y.,G,3.6
+128,Escape Room 2: no way out,"Horror, Thriller",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/EscapeRoom2/,17:30,2021-09-19,16Y.,E/gf,3.6
+129,Kaiserschmarrndrama,Crime,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Kaiserschmarrndrama/,17:30,2021-09-19,12Y.,G,3.0
+130,Prisoner 760,Drama,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/Prisoner760/,17:40,2021-09-19,16Y.,G,4.5
+131,In the Mood for Love,,Arthouse Uto,Zürich,https://www.cineman.ch/en/movie/2000/InTheMoodForLove/,17:45,2021-09-19,16Y.,O/g,4.2
+132,The Organ Donor,Horror,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/SawIX/,17:45,2021-09-19,18Y.,G,2.5
+133,The Forever Purge,"Action, Horror, Sci-fi, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/TheForeverPurge/,17:45,2021-09-19,16Y.,G,3.1
+134,French Exit,Drama,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2020/FrenchExit/,17:50,2021-09-19,14Y.,E/gf,3.0
+135,Monte Verità,Drama,Arthouse Le Paris,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,17:50,2021-09-19,14Y.,G,3.7
+136,The Father,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/TheFather/,17:50,2021-09-19,14/12Y.,E/gf,4.4
+137,Toma,"Drama, Music, History",Kosmos,Zürich,https://www.cineman.ch/en/movie/2021/Toma/,17:50,2021-09-19,16/14Y.,O/g,not available
+138,Bekenntnisse des Hochstaplers Felix Krull,Drama,Stüssihof,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,18:00,2021-09-19,12Y.,G,3.7
+139,Don't Breathe 2,"Horror, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/DontBreathe2/,18:00,2021-09-19,16Y.,G,2.4
+140,Fluchtgefahr,,Filmpodium,Zürich,https://www.cineman.ch/en/showtimes/cinema/filmpodium-zurich/421/,18:00,2021-09-19,none,O/g,
+141,Old,"Mystery, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/Old/,18:00,2021-09-19,14Y.,G,2.4
+142,Felkészülés meghatározatlan ideig tartó együttlétre,Drama,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/FelkeszuelesMeghatarozatlanIdeigTartoEgyuettletre/,18:00,2021-09-19,16Y.,O/gf,4.0
+143,Programm 2,,Xenix,Zürich,https://www.cineman.ch/en/showtimes/cinema/xenix-zurich/343/,18:00,2021-09-19,none,O,
+144,Riders of Justice - Helden der Wahrscheinlichkeit,,Arthouse Alba,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,18:00,2021-09-19,16Y.,O/gf,3.3
+145,Riders of Justice - Helden der Wahrscheinlichkeit,,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,18:10,2021-09-19,16Y.,G,3.3
+146,Riders of Justice - Helden der Wahrscheinlichkeit,,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,18:30,2021-09-19,16Y.,O/gf,3.3
+147,Cash Truck,"Action, Crime",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/WrathOfMan/,18:10,2021-09-19,16Y.,G,3.7
+148,Heitere Fahne,Documentary,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/HeitereFahne/,18:10,2021-09-19,none,CH/e,not available
+149,Monte Verità,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,18:10,2021-09-19,14Y.,G/e,3.7
+150,Nuevo orden,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/NuevoOrden/,18:10,2021-09-19,16Y.,S/pgf,2.8
+151,After We Fell,Romance,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,18:20,2021-09-19,14Y.,G,3.2
+152,Billie,"Documentary, Music",Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2019/Billie/,18:20,2021-09-19,16/10Y.,E/gf,4.7
+153,Druk,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Druk/,18:20,2021-09-19,14Y.,O/gf,4.2
+154,La Fine Fleur,"Comedy, Drama",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/LaFineFleur/,18:20,2021-09-19,14/6Y.,F/g,4.5
+155,Tides,"Sci-fi, Thriller",Kosmos,Zürich,https://www.cineman.ch/en/movie/2021/tides/,18:20,2021-09-19,12Y.,E/g,3.8
+156,Die Pazifistin - Gertrud Woker: Eine vergessene Heldin,Documentary,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2021/DiePazifistinGertrudWoker/,18:30,2021-09-19,12Y.,G,5.0
+157,Gaza mon amour,"Comedy, Drama, Romance",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Apollo/,18:30,2021-09-19,16/12Y.,O/gf,not available
+158,Nomadland,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,18:30,2021-09-19,12/6Y.,E/gf,3.9
+159,Nomadland,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,18:40,2021-09-19,12/6Y.,E/gf,3.9
+160,Candyman,Horror,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Candyman/,18:40,2021-09-19,16Y.,G,4.0
+161,"Quo Vadis, Aida?","Drama, War",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/QuoVadisAida/,18:40,2021-09-19,14/12Y.,O/gf,4.2
+162,Auf die eigene Art,Documentary,Stüssihof,Zürich,https://www.cineman.ch/en/movie/2021/AufDieEigeneArt/,19:00,2021-09-19,10Y.,O/g,not available
+163,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,19:30,2021-09-19,14/12Y.,E/gf,4.3
+164,2046,"Drama, Fantasy, Romance, Sci-fi",Arthouse Uto,Zürich,https://www.cineman.ch/en/movie/2004/2046/,20:00,2021-09-19,16Y.,O/g,3.8
+165,Bekenntnisse des Hochstaplers Felix Krull,Drama,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,20:00,2021-09-19,12Y.,G,3.7
+166,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:00,2021-09-19,14/12Y.,E/gf,4.3
+167,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:00,2021-09-19,14/12Y.,E/gf,4.3
+168,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:10,2021-09-19,14/12Y.,G,4.3
+169,Dune,"Action, Adventure, Drama, Sci-fi",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:15,2021-09-19,14/12Y.,G,4.3
+170,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:15,2021-09-19,14/12Y.,G,4.3
+171,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:30,2021-09-19,14/12Y.,G,4.3
+172,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:30,2021-09-19,14/12Y.,E/gf,4.3
+173,Dune,"Action, Adventure, Drama, Sci-fi",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:15,2021-09-19,14/12Y.,E/gf,4.3
+174,Dune,"Action, Adventure, Drama, Sci-fi",Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:20,2021-09-19,14/12Y.,E/gf,4.3
+175,Dune,"Action, Adventure, Drama, Sci-fi",Houdini,Zürich,https://www.cineman.ch/en/movie/2020/Dune/,20:30,2021-09-19,14/12Y.,E/gf,4.3
+176,Fabian oder der Gang vor die Hunde,,Houdini,Zürich,https://www.cineman.ch/en/movie/2021/FabianoderderGangvordieHunde/,20:00,2021-09-19,14/12Y.,G,5.0
+177,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,20:00,2021-09-19,16Y.,E/gf,3.5
+178,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,20:15,2021-09-19,16Y.,G,3.5
+179,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,20:30,2021-09-19,16Y.,G,3.5
+180,Programm 3,,Xenix,Zürich,https://www.cineman.ch/en/showtimes/cinema/xenix-zurich/343/,20:00,2021-09-19,none,O,
+181,Les 2 Alfred,Comedy,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/LesDeuxAlfred/,20:10,2021-09-19,12/8Y.,F/g,3.0
+182,Fast & Furious 9,"Action, Adventure, Crime, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2019/FastandFurious9/,20:15,2021-09-19,16/12Y.,G,3.6
+183,Fast & Furious 9,"Action, Adventure, Crime, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2019/FastandFurious9/,20:30,2021-09-19,16/12Y.,G,3.6
+184,Riders of Justice - Helden der Wahrscheinlichkeit,,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:15,2021-09-19,16Y.,G,3.3
+185,Riders of Justice - Helden der Wahrscheinlichkeit,,Arthouse Alba,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:30,2021-09-19,16Y.,O/gf,3.3
+186,Riders of Justice - Helden der Wahrscheinlichkeit,,blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:30,2021-09-19,16Y.,O/gf,3.3
+187,Riders of Justice - Helden der Wahrscheinlichkeit,,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:50,2021-09-19,16Y.,G,3.3
+188,The Organ Donor,Horror,blue Cinema Metropol,Zürich,https://www.cineman.ch/en/movie/2020/SawIX/,20:15,2021-09-19,18Y.,E/gf,2.5
+189,The Organ Donor,Horror,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/SawIX/,20:45,2021-09-19,18Y.,G,2.5
+190,OSS 117 : Alerte rouge en Afrique noire,"Action, Adventure, Comedy",Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2021/OSS117AlerteRougeEnAfriqueNoire/,20:20,2021-09-19,12/10Y.,F,3.3
+191,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:20,2021-09-19,12Y.,E/gf,4.0
+192,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:30,2021-09-19,12Y.,G,4.0
+193,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:30,2021-09-19,12Y.,E/gf,4.0
+194,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:30,2021-09-19,12Y.,E/gf,4.0
+195,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:45,2021-09-19,12Y.,G,4.0
+196,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:45,2021-09-19,12Y.,E/gf,4.0
+197,The Suicide Squad,"Action, Adventure, Fantasy",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/TheSuicideSquat/,20:25,2021-09-19,16Y.,G,3.6
+198,After We Fell,Romance,blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,20:30,2021-09-19,14Y.,G,3.2
+199,After We Fell,Romance,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/AfterWeFell/,20:50,2021-09-19,14Y.,G,3.2
+200,Candyman,Horror,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2020/Candyman/,20:30,2021-09-19,16Y.,E/gf,4.0
+201,Generation Beziehungsunfähig,Comedy,blue Cinema Capitol,Zürich,https://www.cineman.ch/en/movie/2021/GenerationBeziehungsunfaehig/,20:30,2021-09-19,12Y.,G,2.3
+202,Monte Verità,Drama,Arthouse Le Paris,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,20:30,2021-09-19,14Y.,G,3.7
+203,Monte Verità,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2021/MonteVerita/,20:40,2021-09-19,14Y.,G/e,3.7
+204,La Nuit des rois,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2021/LaNuitDesRois/,20:30,2021-09-19,16Y.,O/gf,2.5
+205,Nomadland,Drama,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,20:30,2021-09-19,12/6Y.,E/gf,3.9
+206,Nomadland,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Nomadland/,20:50,2021-09-19,12/6Y.,E/gf,3.9
+207,Felkészülés meghatározatlan ideig tartó együttlétre,Drama,Arthouse Movie,Zürich,https://www.cineman.ch/en/movie/2020/FelkeszuelesMeghatarozatlanIdeigTartoEgyuettletre/,20:30,2021-09-19,16Y.,O/gf,4.0
+208,Prisoner 760,Drama,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/Prisoner760/,20:35,2021-09-19,16Y.,G,4.5
+209,Billie,"Documentary, Music",Houdini,Zürich,https://www.cineman.ch/en/movie/2019/Billie/,20:40,2021-09-19,16/10Y.,E/g,4.7
+210,The Conjuring 3,Horror,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/TheConjuring3/,20:40,2021-09-19,16Y.,G,3.8
+211,Nuevo orden,Drama,Arthouse Piccadilly,Zürich,https://www.cineman.ch/en/movie/2020/NuevoOrden/,20:40,2021-09-19,16Y.,S/pgf,2.8
+212,Old,"Mystery, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/Old/,20:40,2021-09-19,14Y.,G,2.4
+213,Toma,"Drama, Music, History",Kosmos,Zürich,https://www.cineman.ch/en/movie/2021/Toma/,20:40,2021-09-19,16/14Y.,O/g,not available
+214,Black Widow,"Action, Adventure, Sci-fi",blue Cinema Corso,Zürich,https://www.cineman.ch/en/movie/2020/BlackWidow/,20:45,2021-09-19,12Y.,E/gf,3.9
+215,Cash Truck,"Action, Crime",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/WrathOfMan/,20:45,2021-09-19,16Y.,G,3.7
+216,Don't Breathe 2,"Horror, Thriller",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2021/DontBreathe2/,20:45,2021-09-19,16Y.,G,2.4
+217,Free Guy,"Action, Adventure, Comedy, Sci-fi",blue Cinema Abaton,Zürich,https://www.cineman.ch/en/movie/2020/FreeGuy/,20:45,2021-09-19,14/12Y.,E/gf,3.6
+218,"Los jueves, milagro",,Filmpodium,Zürich,https://www.cineman.ch/en/showtimes/cinema/filmpodium-zurich/421/,20:45,2021-09-19,none,S/pg,
+219,Druk,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/Druk/,20:50,2021-09-19,14Y.,O/gf,4.2
+220,Escape Room 2: no way out,"Horror, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/EscapeRoom2/,20:50,2021-09-19,16Y.,G,3.6
+221,The Forever Purge,"Action, Horror, Sci-fi, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/TheForeverPurge/,20:55,2021-09-19,16Y.,G,3.1
+222,Bekenntnisse des Hochstaplers Felix Krull,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,21:00,2021-09-19,12Y.,G,3.7
+223,Don't Breathe 2,"Horror, Thriller",Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2021/DontBreathe2/,21:00,2021-09-19,16Y.,G,2.4
+224,Fantoche: Best-of Fantoche 2021,,Riffraff,Zürich,https://www.cineman.ch/en/showtimes/cinema/riffraff-zurich/351/,21:00,2021-09-19,16Y.,O,
+225,French Exit,Drama,Kosmos,Zürich,https://www.cineman.ch/en/movie/2020/FrenchExit/,21:00,2021-09-19,14Y.,E/gf,3.0
+226,Riders of Justice - Helden der Wahrscheinlichkeit,,Riffraff,Zürich,https://www.cineman.ch/en/movie/2020/RidersofJustice/,21:00,2021-09-19,16Y.,O/gf,3.3
+227,The Organ Donor,Horror,Arena Cinemas,Zürich,https://www.cineman.ch/en/movie/2020/SawIX/,21:00,2021-09-19,18Y.,G,2.5
+228,The Father,Drama,Houdini,Zürich,https://www.cineman.ch/en/movie/2020/TheFather/,21:00,2021-09-19,14/12Y.,E/gf,4.4
