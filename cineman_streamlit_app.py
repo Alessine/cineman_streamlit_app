@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import pydeck as pdk
+from matplotlib import cm
 import matplotlib.pyplot as plt
 from datetime import date
 
@@ -24,8 +26,7 @@ left.map(cineman_df)
 right.bar_chart(cineman_df['showtime'].value_counts())
 
 # With pydeck
-import pydeck as pdk
-from matplotlib import cm
+
 
 color_list = cm.get_cmap('plasma', 24).colors*255
 
@@ -37,7 +38,7 @@ st.pydeck_chart(pdk.Deck(
          longitude=cineman_df['longitude'].mean(),
          zoom=9,
          pitch=0,
-     ),layers=[pdk.Layer(
+     ), layers=[pdk.Layer(
              'ScatterplotLayer',
              data=cineman_df,
              get_position='[longitude, latitude]',
@@ -66,7 +67,3 @@ st.pydeck_chart(pdk.Deck(
 #)
 #st.sidebar.write(option)
 # There are many more!!
-
-
-
-
