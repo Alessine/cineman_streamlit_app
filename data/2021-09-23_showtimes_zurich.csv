@@ -1,0 +1,88 @@
+,movie,genre,age_limit,language,movie_link,showtime,date,cinema,place,rating,cinema_place,latitude,longitude
+0,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/Dune/,17:10,2021-09-23,Houdini,Zürich,4.1,Houdini Zürich,47.3746074,8.5203069
+1,Fantoche: Best-of Fantoche 2021,,16Y.,O,https://www.cineman.ch/en/showtimes/cinema/riffraff-zurich/351/,17:10,2021-09-23,Riffraff,Zürich,,Riffraff Zürich,47.3827835,8.5290454
+2,Fast & Furious 9,"Action, Adventure, Crime, Thriller",16/12Y.,G,https://www.cineman.ch/en/movie/2019/FastandFurious9/,17:10,2021-09-23,Arena Cinemas,Zürich,3.5,Arena Cinemas Zürich,47.3584599,8.5229214
+3,Jungle Cruise,"Action, Adventure",14/12Y.,G,https://www.cineman.ch/en/movie/2019/JungleCruise/,17:10,2021-09-23,Arena Cinemas,Zürich,3.0,Arena Cinemas Zürich,47.3584599,8.5229214
+4,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,E/gf,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:20,2021-09-23,Arena Cinemas,Zürich,4.1,Arena Cinemas Zürich,47.3584599,8.5229214
+5,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,G,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:50,2021-09-23,Arena Cinemas,Zürich,4.1,Arena Cinemas Zürich,47.3584599,8.5229214
+6,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,E/gf,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,17:30,2021-09-23,blue Cinema Capitol,Zürich,4.1,blue Cinema Capitol Zürich,47.3778376,8.5441343
+7,Kaiserschmarrndrama,Crime,12Y.,G,https://www.cineman.ch/en/movie/2020/Kaiserschmarrndrama/,17:30,2021-09-23,blue Cinema Capitol,Zürich,3.0,blue Cinema Capitol Zürich,47.3778376,8.5441343
+8,Paw Patrol: The Movie,"Animation, Children",6Y.,G,https://www.cineman.ch/en/movie/2021/PAWPatrol/,17:30,2021-09-23,blue Cinema Capitol,Zürich,3.9,blue Cinema Capitol Zürich,47.3778376,8.5441343
+9,Prisoner 760,Drama,16Y.,G,https://www.cineman.ch/en/movie/2021/Prisoner760/,17:40,2021-09-23,Arena Cinemas,Zürich,4.5,Arena Cinemas Zürich,47.3584599,8.5229214
+10,Free Guy,"Action, Adventure, Comedy, Sci-fi",14/12Y.,G,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:50,2021-09-23,Arena Cinemas,Zürich,3.7,Arena Cinemas Zürich,47.3584599,8.5229214
+11,Free Guy,"Action, Adventure, Comedy, Sci-fi",14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/FreeGuy/,17:55,2021-09-23,Arena Cinemas,Zürich,3.7,Arena Cinemas Zürich,47.3584599,8.5229214
+12,Schachnovelle,Drama,12Y.,G,https://www.cineman.ch/en/movie/2021/Schachnovelle/,17:50,2021-09-23,Arthouse Movie,Zürich,not available,Arthouse Movie Zürich,47.3707036,8.5437007
+13,Bekenntnisse des Hochstaplers Felix Krull,Drama,12Y.,G,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,18:00,2021-09-23,Stüssihof,Zürich,4.0,Stüssihof Zürich,47.3723239,8.5437701
+14,Druk,Drama,14Y.,O/gf,https://www.cineman.ch/en/movie/2020/Druk/,18:00,2021-09-23,Riffraff,Zürich,4.2,Riffraff Zürich,47.3827835,8.5290454
+15,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/Dune/,18:00,2021-09-23,blue Cinema Metropol,Zürich,4.1,blue Cinema Metropol Zürich,47.3737637,8.530738099999999
+16,Identität und andere Ideen,,none,O,https://www.cineman.ch/en/showtimes/cinema/xenix-zurich/343/,18:00,2021-09-23,Xenix,Zürich,,Xenix Zürich,47.37528529999999,8.5261529
+17,Old,"Mystery, Thriller",14Y.,G,https://www.cineman.ch/en/movie/2021/Old/,18:00,2021-09-23,Arena Cinemas,Zürich,2.4,Arena Cinemas Zürich,47.3584599,8.5229214
+18,Riders of Justice - Helden der Wahrscheinlichkeit,,16Y.,O/gf,https://www.cineman.ch/en/movie/2020/RidersofJustice/,18:00,2021-09-23,Arthouse Alba,Zürich,3.5,Arthouse Alba Zürich,47.3761085,8.544658199999999
+19,Riders of Justice - Helden der Wahrscheinlichkeit,,16Y.,O/gf,https://www.cineman.ch/en/movie/2020/RidersofJustice/,18:00,2021-09-23,Riffraff,Zürich,3.5,Riffraff Zürich,47.3827835,8.5290454
+20,Riders of Justice - Helden der Wahrscheinlichkeit,,16Y.,G,https://www.cineman.ch/en/movie/2020/RidersofJustice/,18:20,2021-09-23,Arena Cinemas,Zürich,3.5,Arena Cinemas Zürich,47.3584599,8.5229214
+21,Tlamess,Drama,16Y.,O/g,https://www.cineman.ch/en/movie/2019/Tlamess/,18:00,2021-09-23,Kosmos,Zürich,not available,Kosmos Zürich,47.3799807,8.5290807
+22,Billie,"Documentary, Music",16/10Y.,E/gf,https://www.cineman.ch/en/movie/2019/Billie/,18:10,2021-09-23,Arthouse Piccadilly,Zürich,4.7,Arthouse Piccadilly Zürich,47.365993,8.5489046
+23,Cash Truck,"Action, Crime",16Y.,G,https://www.cineman.ch/en/movie/2020/WrathOfMan/,18:10,2021-09-23,Arena Cinemas,Zürich,3.7,Arena Cinemas Zürich,47.3584599,8.5229214
+24,Réveil sur Mars,Documentary,16Y.,O/g,https://www.cineman.ch/en/movie/2020/WakeUpOnMars/,18:10,2021-09-23,Houdini,Zürich,not available,Houdini Zürich,47.3746074,8.5203069
+25,A Cop Movie,,O,O,https://www.cineman.ch/en/showtimes/cinema/kosmos-zurich/1217/,18:15,2021-09-23,Kosmos,Zürich,,Kosmos Zürich,47.3799807,8.5290807
+26,A Hero,,none,O/ge,https://www.cineman.ch/en/movie/2021/AHero/,18:15,2021-09-23,Arthouse Le Paris,Zürich,not available,Arthouse Le Paris Zürich,47.3664352,8.547469399999999
+27,In the Mood for Love,,16Y.,O/g,https://www.cineman.ch/en/movie/2000/InTheMoodForLove/,18:15,2021-09-23,Arthouse Uto,Zürich,4.2,Arthouse Uto Zürich,47.3741858,8.5213039
+28,After We Fell,Romance,14Y.,G,https://www.cineman.ch/en/movie/2021/AfterWeFell/,18:20,2021-09-23,Arena Cinemas,Zürich,3.2,Arena Cinemas Zürich,47.3584599,8.5229214
+29,Felkészülés meghatározatlan ideig tartó együttlétre,Drama,16Y.,O/gf,https://www.cineman.ch/en/movie/2020/FelkeszuelesMeghatarozatlanIdeigTartoEgyuettletre/,18:20,2021-09-23,Arthouse Movie,Zürich,4.0,Arthouse Movie Zürich,47.3707036,8.5437007
+30,Schachnovelle,Drama,12Y.,G,https://www.cineman.ch/en/movie/2021/Schachnovelle/,18:20,2021-09-23,Kosmos,Zürich,not available,Kosmos Zürich,47.3799807,8.5290807
+31,Monte Verità,Drama,14Y.,G/e,https://www.cineman.ch/en/movie/2021/MonteVerita/,18:30,2021-09-23,Houdini,Zürich,3.7,Houdini Zürich,47.3746074,8.5203069
+32,Septet: The Story of Hong Kong,,O/e,O/e,https://www.cineman.ch/en/showtimes/cinema/kosmos-zurich/1217/,18:30,2021-09-23,Kosmos,Zürich,,Kosmos Zürich,47.3799807,8.5290807
+33,The Father,Drama,14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/TheFather/,18:30,2021-09-23,Houdini,Zürich,4.4,Houdini Zürich,47.3746074,8.5203069
+34,The Return: Life After ISIS,,none,O,https://www.cineman.ch/en/showtimes/cinema/arthouse-piccadilly-zurich/353/,18:30,2021-09-23,Arthouse Piccadilly,Zürich,,Arthouse Piccadilly Zürich,47.365993,8.5489046
+35,Tiger und Büffel,Documentary,12Y.,O/g,https://www.cineman.ch/en/movie/2021/TigerUndBueffel/,18:30,2021-09-23,Houdini,Zürich,not available,Houdini Zürich,47.3746074,8.5203069
+36,Candyman,Horror,16Y.,G,https://www.cineman.ch/en/movie/2020/Candyman/,18:40,2021-09-23,Arena Cinemas,Zürich,4.0,Arena Cinemas Zürich,47.3584599,8.5229214
+37,Nomadland,Drama,12/6Y.,E/gf,https://www.cineman.ch/en/movie/2020/Nomadland/,18:40,2021-09-23,Riffraff,Zürich,3.9,Riffraff Zürich,47.3827835,8.5290454
+38,Life of Ivanna,,O/gf,O/gf,https://www.cineman.ch/en/showtimes/cinema/kosmos-zurich/1217/,18:45,2021-09-23,Kosmos,Zürich,,Kosmos Zürich,47.3799807,8.5290807
+39,Notturno,Documentary,16Y.,O/gf,https://www.cineman.ch/en/movie/2020/Notturno/,18:50,2021-09-23,Riffraff,Zürich,not available,Riffraff Zürich,47.3827835,8.5290454
+40,The Organ Donor,Horror,18Y.,E/gf,https://www.cineman.ch/en/movie/2020/SawIX/,19:00,2021-09-23,Stüssihof,Zürich,2.5,Stüssihof Zürich,47.3723239,8.5437701
+41,Bekenntnisse des Hochstaplers Felix Krull,Drama,12Y.,G,https://www.cineman.ch/en/movie/2020/BekenntnisseDesHochstaplersFelixKrull/,20:00,2021-09-23,blue Cinema Capitol,Zürich,4.0,blue Cinema Capitol Zürich,47.3778376,8.5441343
+42,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/Dune/,20:00,2021-09-23,blue Cinema Capitol,Zürich,4.1,blue Cinema Capitol Zürich,47.3778376,8.5441343
+43,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/Dune/,20:00,2021-09-23,blue Cinema Metropol,Zürich,4.1,blue Cinema Metropol Zürich,47.3737637,8.530738099999999
+44,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/Dune/,20:00,2021-09-23,Arena Cinemas,Zürich,4.1,Arena Cinemas Zürich,47.3584599,8.5229214
+45,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,G,https://www.cineman.ch/en/movie/2020/Dune/,20:10,2021-09-23,Arena Cinemas,Zürich,4.1,Arena Cinemas Zürich,47.3584599,8.5229214
+46,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,G,https://www.cineman.ch/en/movie/2020/Dune/,20:15,2021-09-23,Arena Cinemas,Zürich,4.1,Arena Cinemas Zürich,47.3584599,8.5229214
+47,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/Dune/,20:20,2021-09-23,Kosmos,Zürich,4.1,Kosmos Zürich,47.3799807,8.5290807
+48,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/Dune/,20:30,2021-09-23,Houdini,Zürich,4.1,Houdini Zürich,47.3746074,8.5203069
+49,Fabian oder der Gang vor die Hunde,,14/12Y.,G,https://www.cineman.ch/en/movie/2021/FabianoderderGangvordieHunde/,20:00,2021-09-23,Houdini,Zürich,5.0,Houdini Zürich,47.3746074,8.5203069
+50,Generation Beziehungsunfähig,Comedy,12Y.,G,https://www.cineman.ch/en/movie/2021/GenerationBeziehungsunfaehig/,20:00,2021-09-23,blue Cinema Capitol,Zürich,2.3,blue Cinema Capitol Zürich,47.3778376,8.5441343
+51,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,G,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:10,2021-09-23,Arena Cinemas,Zürich,4.1,Arena Cinemas Zürich,47.3584599,8.5229214
+52,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,E/gf,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:20,2021-09-23,Arena Cinemas,Zürich,4.1,Arena Cinemas Zürich,47.3584599,8.5229214
+53,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,E/gf,https://www.cineman.ch/en/movie/2021/ShangChiAndTheLegendOfTheTenRings/,20:30,2021-09-23,blue Cinema Capitol,Zürich,4.1,blue Cinema Capitol Zürich,47.3778376,8.5441343
+54,Monte Verità,Drama,14Y.,G,https://www.cineman.ch/en/movie/2021/MonteVerita/,20:20,2021-09-23,Arthouse Movie,Zürich,3.7,Arthouse Movie Zürich,47.3707036,8.5437007
+55,Candyman,Horror,16Y.,E/gf,https://www.cineman.ch/en/movie/2020/Candyman/,20:30,2021-09-23,blue Cinema Capitol,Zürich,4.0,blue Cinema Capitol Zürich,47.3778376,8.5441343
+56,"Death of a Virgin, and the Sin of Not Living",,O/e,O/e,https://www.cineman.ch/en/showtimes/cinema/kosmos-zurich/1217/,20:30,2021-09-23,Kosmos,Zürich,,Kosmos Zürich,47.3799807,8.5290807
+57,French Exit,Drama,14Y.,E/gf,https://www.cineman.ch/en/movie/2020/FrenchExit/,20:30,2021-09-23,Arthouse Piccadilly,Zürich,3.0,Arthouse Piccadilly Zürich,47.365993,8.5489046
+58,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",16Y.,E/gf,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,20:30,2021-09-23,blue Cinema Capitol,Zürich,3.5,blue Cinema Capitol Zürich,47.3778376,8.5441343
+59,The Hitman's Wife's Bodyguard,"Action, Comedy, Thriller",16Y.,G,https://www.cineman.ch/en/movie/2020/TheHitmansWifesBodyguard/,20:30,2021-09-23,Arena Cinemas,Zürich,3.5,Arena Cinemas Zürich,47.3584599,8.5229214
+60,La Nuit des rois,Drama,16Y.,O/gf,https://www.cineman.ch/en/movie/2021/LaNuitDesRois/,20:30,2021-09-23,Riffraff,Zürich,3.0,Riffraff Zürich,47.3827835,8.5290454
+61,OSS 117 : Alerte rouge en Afrique noire,"Action, Adventure, Comedy",12/10Y.,F,https://www.cineman.ch/en/movie/2021/OSS117AlerteRougeEnAfriqueNoire/,20:30,2021-09-23,Arthouse Uto,Zürich,3.2,Arthouse Uto Zürich,47.3741858,8.5213039
+62,Persepolis,"Animation, Drama",none,F/g,https://www.cineman.ch/en/movie/2007/Persepolis/,20:30,2021-09-23,Xenix,Zürich,4.4,Xenix Zürich,47.37528529999999,8.5261529
+63,Riders of Justice - Helden der Wahrscheinlichkeit,,16Y.,O/gf,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:30,2021-09-23,Arthouse Alba,Zürich,3.5,Arthouse Alba Zürich,47.3761085,8.544658199999999
+64,Riders of Justice - Helden der Wahrscheinlichkeit,,16Y.,O/gf,https://www.cineman.ch/en/movie/2020/RidersofJustice/,20:30,2021-09-23,Riffraff,Zürich,3.5,Riffraff Zürich,47.3827835,8.5290454
+65,Prisoner 760,Drama,16Y.,G,https://www.cineman.ch/en/movie/2021/Prisoner760/,20:35,2021-09-23,Arena Cinemas,Zürich,4.5,Arena Cinemas Zürich,47.3584599,8.5229214
+66,The Suicide Squad,"Action, Adventure, Fantasy",16Y.,G,https://www.cineman.ch/en/movie/2021/TheSuicideSquat/,20:35,2021-09-23,Arena Cinemas,Zürich,3.6,Arena Cinemas Zürich,47.3584599,8.5229214
+67,Billie,"Documentary, Music",16/10Y.,E/g,https://www.cineman.ch/en/movie/2019/Billie/,20:40,2021-09-23,Houdini,Zürich,4.7,Houdini Zürich,47.3746074,8.5203069
+68,Schachnovelle,Drama,12Y.,G,https://www.cineman.ch/en/movie/2021/Schachnovelle/,20:40,2021-09-23,Arthouse Movie,Zürich,not available,Arthouse Movie Zürich,47.3707036,8.5437007
+69,The Conjuring 3,Horror,16Y.,G,https://www.cineman.ch/en/movie/2020/TheConjuring3/,20:40,2021-09-23,Arena Cinemas,Zürich,3.8,Arena Cinemas Zürich,47.3584599,8.5229214
+70,The Father,Drama,14/12Y.,E/gf,https://www.cineman.ch/en/movie/2020/TheFather/,20:40,2021-09-23,Houdini,Zürich,4.4,Houdini Zürich,47.3746074,8.5203069
+71,Aloners,,none,O/ge,https://www.cineman.ch/en/showtimes/cinema/arthouse-piccadilly-zurich/353/,20:45,2021-09-23,Arthouse Piccadilly,Zürich,,Arthouse Piccadilly Zürich,47.365993,8.5489046
+72,Lakewood,Thriller,E/gf,E/gf,https://www.cineman.ch/en/movie/2021/Lakewood/,20:45,2021-09-23,Kosmos,Zürich,not available,Kosmos Zürich,47.3799807,8.5290807
+73,After We Fell,Romance,14Y.,G,https://www.cineman.ch/en/movie/2021/AfterWeFell/,20:50,2021-09-23,Arena Cinemas,Zürich,3.2,Arena Cinemas Zürich,47.3584599,8.5229214
+74,Cash Truck,"Action, Crime",16Y.,G,https://www.cineman.ch/en/movie/2020/WrathOfMan/,20:50,2021-09-23,Arena Cinemas,Zürich,3.7,Arena Cinemas Zürich,47.3584599,8.5229214
+75,Escape Room 2: no way out,"Horror, Thriller",16Y.,G,https://www.cineman.ch/en/movie/2020/EscapeRoom2/,20:50,2021-09-23,Arena Cinemas,Zürich,3.6,Arena Cinemas Zürich,47.3584599,8.5229214
+76,The Forever Purge,"Action, Horror, Sci-fi, Thriller",16Y.,G,https://www.cineman.ch/en/movie/2020/TheForeverPurge/,20:50,2021-09-23,Arena Cinemas,Zürich,3.1,Arena Cinemas Zürich,47.3584599,8.5229214
+77,Don't Breathe 2,"Horror, Thriller",16Y.,G,https://www.cineman.ch/en/movie/2021/DontBreathe2/,21:00,2021-09-23,Arena Cinemas,Zürich,2.4,Arena Cinemas Zürich,47.3584599,8.5229214
+78,Heitere Fahne,Documentary,none,CH/e,https://www.cineman.ch/en/movie/2021/HeitereFahne/,21:00,2021-09-23,Riffraff,Zürich,not available,Riffraff Zürich,47.3827835,8.5290454
+79,Nomadland,Drama,12/6Y.,E/gf,https://www.cineman.ch/en/movie/2020/Nomadland/,21:00,2021-09-23,Riffraff,Zürich,3.9,Riffraff Zürich,47.3827835,8.5290454
+80,"Quo Vadis, Aida?","Drama, War",14/12Y.,O/gf,https://www.cineman.ch/en/movie/2020/QuoVadisAida/,21:00,2021-09-23,Houdini,Zürich,4.2,Houdini Zürich,47.3746074,8.5203069
+81,Schachnovelle,Drama,12Y.,G,https://www.cineman.ch/en/movie/2021/Schachnovelle/,21:00,2021-09-23,Kosmos,Zürich,not available,Kosmos Zürich,47.3799807,8.5290807
+82,The Organ Donor,Horror,18Y.,G,https://www.cineman.ch/en/movie/2020/SawIX/,21:00,2021-09-23,Arena Cinemas,Zürich,2.5,Arena Cinemas Zürich,47.3584599,8.5229214
+83,Tre piani,"Comedy, Drama",none,O,https://www.cineman.ch/en/movie/2021/TrePiani/,21:00,2021-09-23,Arthouse Le Paris,Zürich,not available,Arthouse Le Paris Zürich,47.3664352,8.547469399999999
+84,Unclenching the Fists,,O/ge,O/ge,https://www.cineman.ch/en/showtimes/cinema/kosmos-zurich/1217/,21:00,2021-09-23,Kosmos,Zürich,,Kosmos Zürich,47.3799807,8.5290807
+85,La voie normale,,O/e,O/e,https://www.cineman.ch/en/showtimes/cinema/kosmos-zurich/1217/,21:15,2021-09-23,Kosmos,Zürich,,Kosmos Zürich,47.3799807,8.5290807
+86,Und morgen seid ihr tot,Drama,none,O/ge,https://www.cineman.ch/en/movie/2020/UndMorgenSeidIhrTot/,21:15,2021-09-23,blue Cinema Corso,Zürich,not available,blue Cinema Corso Zürich,47.3663426,8.546733999999999
