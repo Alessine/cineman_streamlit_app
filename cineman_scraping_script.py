@@ -1,11 +1,9 @@
-import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
-
 import requests
 from bs4 import BeautifulSoup
-
+import numpy as np
 import pandas as pd
 import time
 from datetime import date
@@ -89,9 +87,8 @@ for movie in movies:
     age_limit = age_links[-1].get_text()
     if age_limit == "Reservation":
         age_limit = age_links[-2].get_text()
-        age_limits.append(age_limit)
-    elif age_limit.find("Y.") == -1:
-        age_limits.append("none")
+    if age_limit.find("Y.") == -1:
+        age_limits.append("unknown")
     else:
         age_limits.append(age_limit)
 
@@ -147,7 +144,7 @@ all_info_dict["place"] = places_list
 movie_program_df = pd.DataFrame(all_info_dict).explode(["cinema", "showtime", "place", "language"]).explode(
     ["showtime", "language"])
 
-print(movie_program_df["place"][0])
+print(len(movie_program_df))
 
 # Scraping movie ratings
 umovie_links = movie_program_df["movie_link"].unique()
@@ -175,14 +172,14 @@ for i, movie_link in enumerate(umovie_links):
         title = content2.find("span", {"itemprop": "itemreviewed"}).get_text()
         title_list.append(title)
     except AttributeError:
-        title_list.append("not available")
+        title_list.append(np.nan)
 
     # Rating
     try:
         cineman_rating = content2.find("strong", {"class": "color-playstation"}).get_text()
         rating_list.append(cineman_rating)
     except AttributeError:
-        rating_list.append("not available")
+        rating_list.append(np.nan)
 
 driver.close()
 
@@ -190,6 +187,56 @@ ratings_dict["movie"] = title_list
 ratings_dict["rating"] = rating_list
 
 ratings_df = pd.DataFrame(ratings_dict)
-ratings_df.head()
+ratings_df["rating"] = ratings_df["rating"].astype(float)
 
-print(ratings_df["rating"][0])
+print(len(ratings_df))
+
+# Adding the ratings to the movie program
+cineman_df = pd.merge(movie_program_df, ratings_df, how="left")
+cineman_df["cinema_place"] = [f'{c} {p}' for c, p in zip(cineman_df["cinema"], cineman_df["place"])]
+
+print(len(cineman_df))
+
+# Getting location data from the Google API
+key_json = json.load(open("../../Propulsion/DS_course_082021/google_api/credentials.json"))
+gmaps_key = key_json["key"]
+
+url = "https://maps.googleapis.com/maps/api/place/textsearch/json?"
+api_key = gmaps_key
+
+latitudes_list = []
+longitudes_list = []
+
+for theatre in cineman_df["cinema_place"].unique():
+    # text string on which to search
+    query = theatre
+
+    # get method of requests module, return response object
+    req = requests.get(url + "query=" + query + "&key=" + api_key)
+
+    # json method of response object: json format data -> python format data
+    places_json = req.json()
+
+    # now result contains list of nested dictionaries
+    my_result = places_json["results"]
+
+    # take a look at the first element
+    latitude = my_result[0]["geometry"]["location"]["lat"]
+    latitudes_list.append(latitude)
+
+    longitude = my_result[0]["geometry"]["location"]["lng"]
+    longitudes_list.append(longitude)
+
+theatre_location_dict = dict()
+theatre_location_dict["cinema_place"] = cineman_df["cinema_place"].unique()
+theatre_location_dict["latitude"] = latitudes_list
+theatre_location_dict["longitude"] = longitudes_list
+
+theatre_locations_df = pd.DataFrame(theatre_location_dict)
+
+print(len(theatre_locations_df))
+
+cineman_df = pd.merge(cineman_df, theatre_locations_df, how = "left")
+print(len(cineman_df))
+
+cineman_df.to_csv(path=f"data/{date.today()}_showtimes_zurich.csv")
