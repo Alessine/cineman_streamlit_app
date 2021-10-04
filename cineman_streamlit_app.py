@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 from matplotlib import cm
+import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 from datetime import date
 
@@ -14,7 +15,7 @@ st.sidebar.subheader("including movie ratings")
 
 st.sidebar.write("scraped from www.cineman.ch")
 
-cineman_df = pd.read_csv(f"./data/{date.today()}_showtimes_zurich.csv", index_col=0)
+cineman_df = pd.read_csv(f"./data/2021-09-24_showtimes_zurich.csv", index_col=0)
 
 st.table(cineman_df.head())
 
@@ -48,6 +49,34 @@ st.pydeck_chart(pdk.Deck(
      ]))
 
 # Plotly will also render
+mapbox_access_token = open(".mapbox_token").read()
+
+fig = go.Figure(go.Scattermapbox(
+        lat=cineman_df["latitude"],
+        lon=cineman_df["longitude"],
+        mode='markers',
+        marker=go.scattermapbox.Marker(
+            size=10
+        ),
+        text=cineman_df["cinema"],
+    ))
+
+fig.update_layout(
+    hovermode='closest',
+    width=800,
+    height=800,
+    mapbox=dict(
+        accesstoken=mapbox_access_token,
+        center=go.layout.mapbox.Center(
+            lat=47.374,
+            lon=8.535
+        ),
+        zoom=13
+    )
+)
+
+st.plotly_chart(fig)
+
 #fig = dict({
 #    "data": [{"type": "bar",
 #              "x": [1, 2, 3],

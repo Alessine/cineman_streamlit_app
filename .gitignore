@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+
+# Credentials
+.mapbox_token
+
 __pycache__/
 *.py[cod]
 *$py.class
