@@ -2,6 +2,10 @@
 
 # Credentials
 .mapbox_token
+*.yml
+
+# Zipped data files
+*.gz
 
 __pycache__/
 *.py[cod]
