@@ -236,7 +236,7 @@ theatre_locations_df = pd.DataFrame(theatre_location_dict)
 
 print(len(theatre_locations_df))
 
-cineman_df = pd.merge(cineman_df, theatre_locations_df, how = "left")
+cineman_df = pd.merge(cineman_df, theatre_locations_df, how="left")
 print(len(cineman_df))
 
 cineman_df.to_csv(path=f"data/{date.today()}_showtimes_zurich.csv")
