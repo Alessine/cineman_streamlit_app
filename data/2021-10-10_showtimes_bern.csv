@@ -1,0 +1,33 @@
+,movie,genre,age_limit,language,showtime,date,cinema,place,cinema_place,latitude,longitude
+0,Hive,Drama,unknown,O/gf,18:30,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+1,No Time to Die,"Action, Adventure, Thriller",14Y.,G,18:30,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+2,Felkészülés meghatározatlan ideig tartó együttlétre,Drama,16Y.,O/g,18:30,2021-10-10,Kellerkino,Bern,Kellerkino Bern,46.948114,7.450835
+3,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,19:00,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+4,No Time to Die,"Action, Adventure, Thriller",14Y.,G,19:00,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+5,No Time to Die,"Action, Adventure, Thriller",14Y.,G,19:15,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+6,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,19:45,2021-10-10,CineBubenberg,Bern,CineBubenberg Bern,46.9474577,7.437043099999999
+7,Kurze Filme aus dem Lichtspiel-Archiv,,unknown,O,20:00,2021-10-10,Lichtspiel / Kinemathek,Bern,Lichtspiel / Kinemathek Bern,46.9402584,7.4417049
+8,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:00,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+9,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:00,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+10,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:15,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+11,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:30,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+12,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:00,2021-10-10,CineCamera,Bern,CineCamera Bern,46.9463249,7.4350723
+13,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:15,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+14,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:15,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+15,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:30,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+16,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:45,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+17,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,G,20:00,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+18,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,G,20:30,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+19,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,G,20:15,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+20,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,20:30,2021-10-10,blue Cinema Cinedome,Muri BE,blue Cinema Cinedome Muri BE,46.9268001,7.5034408
+21,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,20:15,2021-10-10,CineClub,Bern,CineClub Bern,46.9471597,7.4351584
+22,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,G,20:30,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+23,Riders of Justice - Helden der Wahrscheinlichkeit,,16Y.,O/gf,20:15,2021-10-10,CineABC,Bern,CineABC Bern,46.9569513,7.4529215
+24,Supernova,Drama,14Y.,E/gf,20:15,2021-10-10,CineMovie,Bern,CineMovie Bern,46.9469754,7.435485700000001
+25,Happy Together,Drama,16Y.,O/gf,20:30,2021-10-10,Kino REX,Bern,Kino REX Bern,46.9467538,7.439267000000001
+26,Heitere Fahne,Documentary,unknown,O/g,20:30,2021-10-10,Kino REX,Bern,Kino REX Bern,46.9467538,7.439267000000001
+27,Titane,"Mystery, Thriller",16/0Y.,F/g,20:30,2021-10-10,CineMovie,Bern,CineMovie Bern,46.9469754,7.435485700000001
+28,Titane,"Mystery, Thriller",16/0Y.,G,20:45,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+29,Escape Room 2: no way out,"Horror, Thriller",16Y.,G,20:45,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
+30,Je suis Karl,Drama,12Y.,G,20:45,2021-10-10,CineMovie,Bern,CineMovie Bern,46.9469754,7.435485700000001
+31,No Time to Die,"Action, Adventure, Thriller",14Y.,G,21:00,2021-10-10,Pathé Westside,Bern,Pathé Westside Bern,46.9439013,7.372142299999999
