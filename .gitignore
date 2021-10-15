@@ -2,7 +2,7 @@
 
 # Credentials
 .mapbox_token
-*.yml
+*credentials.yml
 
 # Zipped data files
 *.gz
