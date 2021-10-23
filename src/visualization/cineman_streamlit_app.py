@@ -1,98 +1,62 @@
 import streamlit as st
 import pandas as pd
-import pydeck as pdk
-from matplotlib import cm
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 from datetime import date
 
-# Header and text
-st.title("Movies in Zurich")
-
-st.sidebar.header(f"{date.today()}")
-
-st.sidebar.subheader("including movie ratings")
-
-st.sidebar.write("scraped from www.cineman.ch")
-
-cineman_df = pd.read_csv(f"./data/2021-09-24_showtimes_zurich.csv", index_col=0)
-
-st.table(cineman_df.head())
-
-left, right = st.columns([1, 1])
-
-# Maps
-# Basic
-left.map(cineman_df)
-right.bar_chart(cineman_df['showtime'].value_counts())
-
-# With pydeck
+# Read in the data
+cineman_df = pd.read_csv(f"../../data/raw/{date.today()}_showtimes.csv", index_col=0)
+mapbox_access_token = open("../../.mapbox_token").read()
 
 
-color_list = cm.get_cmap('plasma', 24).colors*255
-
-#cineman_df['plot_color'] = cineman_df['rating'].apply(lambda x: list(color_list[x]))
-st.pydeck_chart(pdk.Deck(
-     map_style='mapbox://styles/mapbox/light-v9',
-     initial_view_state=pdk.ViewState(
-         latitude=cineman_df["latitude"].mean(),
-         longitude=cineman_df['longitude'].mean(),
-         zoom=9,
-         pitch=0,
-     ), layers=[pdk.Layer(
-             'ScatterplotLayer',
-             data=cineman_df,
-             get_position='[longitude, latitude]',
-       #      get_color='plot_color',
-           #  get_radius='[car_hours]/5',
-         ),
-     ]))
-
-# Plotly will also render
-mapbox_access_token = open(".mapbox_token").read()
-
-fig = go.Figure(go.Scattermapbox(
-        lat=cineman_df["latitude"],
-        lon=cineman_df["longitude"],
+# Plotting functions
+def create_plotly_map(df, access_token):
+    fig = go.Figure(go.Scattermapbox(
+        lat=df["latitude"],
+        lon=df["longitude"],
         mode='markers',
         marker=go.scattermapbox.Marker(
-            size=10
+            size=10, color="crimson"
         ),
-        text=cineman_df["cinema"],
+        text=df["cinema"],
+        hoverinfo="text"
     ))
 
-fig.update_layout(
-    hovermode='closest',
-    width=800,
-    height=800,
-    mapbox=dict(
-        accesstoken=mapbox_access_token,
-        center=go.layout.mapbox.Center(
-            lat=47.374,
-            lon=8.535
-        ),
-        zoom=13
+    fig.update_layout(
+        hovermode='closest',
+        width=500,
+        height=500,
+        margin={"r": 0, "t": 0, "l": 0, "b": 0},
+        mapbox=dict(
+            accesstoken=access_token,
+            center=go.layout.mapbox.Center(
+                lat=47.374,
+                lon=8.535
+            ),
+            zoom=12.5,
+            style="streets"
+        )
     )
-)
-
-st.plotly_chart(fig)
-
-#fig = dict({
-#    "data": [{"type": "bar",
-#              "x": [1, 2, 3],
-#              "y": [1, 3, 2]}],
-#    "layout": {"title": {"text": "A Figure Specified By Python Dictionary"}}
-#})
+    return fig
 
 
-#st.sidebar.write(name)
+# Header and text
+st.title(f"Movies in Zurich, {date.today()}")
+
+# st.sidebar.header("Options for Selection")
+
+# Set up of the page
+st.sidebar.subheader("Options for Selection")
+left, right = st.columns([2, 1])
 
 # Widgets
 # selectBox
 
-#option = st.sidebar.selectbox(
-#    'Select Peak Hour',
-#    sorted(pd.unique(df['peak_hour']))
-#)
-#st.sidebar.write(option)
-# There are many more!!
+movies = ["All"]+sorted(pd.unique(cineman_df['movie']))
+movies = st.sidebar.selectbox("Choose a Movie", movies)   # Here the selection of the year.
+
+# Create the map
+plotly_map = create_plotly_map(cineman_df, mapbox_access_token)
+left.plotly_chart(plotly_map)
+
+# Credits for the data
+st.write("Data scraped from www.cineman.ch")
