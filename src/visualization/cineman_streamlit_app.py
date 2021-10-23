@@ -60,4 +60,3 @@ left.plotly_chart(plotly_map)
 
 # Credits for the data
 st.write("Data scraped from www.cineman.ch")
-
