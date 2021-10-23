@@ -4,10 +4,10 @@ from datetime import date
 import visualization.plotting_functions as pf
 
 
-# Cleaning (already added to scraping script)
 def create_app(cineman_df, movie_desc, mapbox_access_token):
+    # Cleaning (already added to scraping script)
     cineman_df["dt_showtime"] = cineman_df["date"] + " " + cineman_df["showtime"]
-    cineman_df["dt_showtime"] = pd.to_datetime(cineman_df["dt_showtime"], format= '%Y-%m-%d %H:%M')
+    cineman_df["dt_showtime"] = pd.to_datetime(cineman_df["dt_showtime"], format='%Y-%m-%d %H:%M')
 
     # Headers
     st.title(f"Movies in Zurich, {date.today()}")

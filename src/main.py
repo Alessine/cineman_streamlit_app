@@ -6,7 +6,6 @@ from dotenv import find_dotenv, load_dotenv
 import pandas as pd
 from datetime import date
 from visualization.cineman_streamlit_app import create_app
-import visualization.plotting_functions as pf
 
 
 def main():
