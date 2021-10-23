@@ -30,22 +30,9 @@ def fetch_movie_desc(df, movie):
         overview = ""
     return overview
 
-
 # Plotly scattermapbox
 def create_plotly_map(df, access_token, hour="All", movie="All"):
-
-    if hour == "All":
-        df = df
-    elif hour == "9-12am":
-        df = df[df["dt_showtime"].between('09:00:00', '12:00:00')]
-    elif hour == "12-3pm":
-        df = df[df["dt_showtime"].between('12:00:00', '15:00:00')]
-    elif hour == "3-6pm":
-        df = df[df["dt_showtime"].between('15:00:00', '18:00:00')]
-    elif hour == "6-9pm":
-        df = df[df["dt_showtime"].between('18:00:00', '21:00:00')]
-    else:
-        df = df[df["dt_showtime"].between('21:00:00', '23:59:00')]
+    df = select_by_hour(df, hour=hour)
 
     if movie == "All":
         df = df

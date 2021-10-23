@@ -14,13 +14,12 @@ movie_desc = pd.read_csv(f"../../data/raw/{date.today()}_zurich_movie_overviews.
 cineman_df["dt_showtime"] = cineman_df["date"] + " " + cineman_df["showtime"]
 cineman_df["dt_showtime"] = pd.to_datetime(cineman_df["dt_showtime"], format= '%Y-%m-%d %H:%M')
 
-# Header and text
+# Headers
 st.title(f"Movies in Zurich, {date.today()}")
-
 st.sidebar.header("Options for Selection")
+#st.sidebar.subheader("Options for Selection")
 
 # Set up of the page
-#st.sidebar.subheader("Options for Selection")
 left, right = st.columns([2, 1])
 
 # Select the timeframe
