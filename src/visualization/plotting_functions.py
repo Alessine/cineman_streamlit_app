@@ -56,6 +56,7 @@ def fetch_movie_desc(df, movie):
         overview = ""
     return overview
 
+
 # Plotly scattermapbox
 def create_plotly_map(df, access_token, hour="All", movie="All"):
     """
