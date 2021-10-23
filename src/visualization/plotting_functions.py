@@ -3,6 +3,21 @@ import plotly.graph_objects as go
 
 
 def select_by_hour(df, hour="All"):
+    """
+    This function takes in a string designating a time window and returns instances from a dataframe which fall
+    within this time window.
+
+    Required argument:
+    - df: pandas dataframe, contains movie showtimes
+
+    Optional argument:
+    - hour: string, designates a time window; valid options are: "All", "9-12am", "12-3pm", "3-6pm", "6-9pm", "9-12pm".
+    Defaults to "All".
+
+    Returns:
+    - df: pandas dataframe, the same as was fed into the function, but filtered to contain only those occurrences
+    where the showtime is within the designated time window.
+    """
     if hour == "All":
         df = df
     elif hour == "9-12am":
@@ -20,6 +35,17 @@ def select_by_hour(df, hour="All"):
 
 
 def fetch_movie_desc(df, movie):
+    """
+    This function takes in a dataframe with movie descriptions and a movie title.
+    It returns the description for this movie or an empty string, if the description is not available.
+
+    Required arguments:
+    - df: pandas dataframe with movie titles and corresponding descriptions
+    - movie: string, a movie title
+
+    Returns:
+    - overview: a string, the movie description corresponding to the movie title.
+    """
     if movie in list(df["original_title"]):
         overview = df[df["original_title"] == movie]["overview"].values[0]
         if pd.isnull(overview):
@@ -32,6 +58,21 @@ def fetch_movie_desc(df, movie):
 
 # Plotly scattermapbox
 def create_plotly_map(df, access_token, hour="All", movie="All"):
+    """
+    This function accepts a dataframe and three other arguments and returns a plotly map for Zurich.
+    The longitude and latitude values in the dataframe are used to create a scatter plot.
+    The hour and movie arguments serve as filters to display only specific showtimes or just one movie.
+
+    Required arguments:
+    - df: pandas dataframe, contains the data on movies and cinemas to be plotted.
+    - access_token: a mapbox access token required for the customization of the map.
+    - hour: string, designates a time window; valid options are: "All", "9-12am", "12-3pm", "3-6pm", "6-9pm", "9-12pm".
+    Defaults to "All".
+    - movie: string, a movie title
+
+    Returns:
+    - fig: plotly figure that can be used for plotting
+    """
     df = select_by_hour(df, hour=hour)
 
     if movie == "All":
