@@ -65,7 +65,7 @@ def scrape_cineman(cities=("Zürich")):
     return content
 
 
-def format_cineman_content(content):
+def format_cineman_content(html_content):
     """
     This function takes in content scraped from cineman.ch with BeautifulSoup and creates a dataframe from it.
 
@@ -75,7 +75,7 @@ def format_cineman_content(content):
     Returns:
     - movie_program_df: pandas dataframe containing the scraped data
     """
-    movies = content.findAll("div", {"class": "col-xs-12 col-sm-9"})
+    movies = html_content.findAll("div", {"class": "col-xs-12 col-sm-9"})
 
     # Now create the data frame
     # Initialize the lists to store the details for each movie screening
