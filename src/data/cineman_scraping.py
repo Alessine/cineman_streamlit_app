@@ -3,7 +3,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 import requests
 from bs4 import BeautifulSoup
-#import numpy as np
 import pandas as pd
 import time
 from datetime import date

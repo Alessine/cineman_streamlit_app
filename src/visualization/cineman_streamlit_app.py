@@ -4,7 +4,7 @@ from datetime import date
 import visualization.plotting_functions as pf
 
 
-def create_app(cineman_df, movie_desc, mapbox_access_token):
+def create_app(cineman_df, movie_desc, MAPBOX_ACCESS_PATH):
     # Cleaning (already added to scraping script)
     cineman_df["dt_showtime"] = cineman_df["date"] + " " + cineman_df["showtime"]
     cineman_df["dt_showtime"] = pd.to_datetime(cineman_df["dt_showtime"], format='%Y-%m-%d %H:%M')
@@ -31,7 +31,8 @@ def create_app(cineman_df, movie_desc, mapbox_access_token):
     st.sidebar.markdown(f'{overview}', unsafe_allow_html=True)
 
     # Create the map
-    plotly_map = pf.create_plotly_map(cineman_df_hour, mapbox_access_token, hour=selected_hour, movie=selected_movie)
+    plotly_map = pf.create_plotly_map(df=cineman_df_hour, MAPBOX_ACCESS_PATH=MAPBOX_ACCESS_PATH,
+                                      hour=selected_hour, movie=selected_movie)
     left.plotly_chart(plotly_map)
 
     # Credits for the data

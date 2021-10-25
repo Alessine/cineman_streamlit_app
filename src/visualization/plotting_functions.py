@@ -58,7 +58,7 @@ def fetch_movie_desc(df, movie):
 
 
 # Plotly scattermapbox
-def create_plotly_map(df, access_token_path, hour="All", movie="All"):
+def create_plotly_map(df, MAPBOX_ACCESS_PATH, hour="All", movie="All"):
     """
     This function accepts a dataframe and three other arguments and returns a plotly map for Zurich.
     The longitude and latitude values in the dataframe are used to create a scatter plot.
@@ -75,7 +75,7 @@ def create_plotly_map(df, access_token_path, hour="All", movie="All"):
     - fig: plotly figure that can be used for plotting
     """
     df = select_by_hour(df, hour=hour)
-    mapbox_access_token = open(access_token_path).read()
+    mapbox_access_token = open(MAPBOX_ACCESS_PATH).read()
 
     if movie == "All":
         df = df

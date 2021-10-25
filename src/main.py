@@ -35,7 +35,7 @@ def main():
         cs.get_theatre_coordinates(showtimes_df=movie_program_df, GOOGLE_CREDENTIALS_PATH=google_credentials_path,
                                    DATA_PATH_SHOWS=data_path_shows)
 
-        # Requesting movie overviews via the tmdb api
+        # Requesting movie overviews via the tmdb api and saving them
         get_specific_movie_overviews(TMDB_IDS_FILE_PATH=tmdb_ids_file_path, TMDB_CREDENTIALS_PATH=tmdb_credentials_path,
                                      DATA_PATH_SHOWS=data_path_shows, DATA_PATH_DESC=data_path_desc, movies_list=None)
 
@@ -44,7 +44,7 @@ def main():
         movie_desc = pd.read_csv(data_path_desc)
 
     # Create the app
-    create_app(cineman_df, movie_desc, mapbox_access_path)
+    create_app(cineman_df=cineman_df, movie_desc=movie_desc, MAPBOX_ACCESS_PATH=mapbox_access_path)
 
 
 if __name__ == '__main__':
