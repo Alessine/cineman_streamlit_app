@@ -29,7 +29,7 @@ def main():
         tmdb_ids_file_path = os.getenv("TMDB_IDS_FILE_PATH")
         tmdb_credentials_path = os.getenv("TMDB_CREDENTIALS_PATH")
 
-        #Scraping the most recent data and saving it
+        # Scraping the most recent data and saving it
         content = cs.scrape_cineman(cities=("Zürich"))
         movie_program_df = cs.format_cineman_content(html_content=content)
         cs.get_theatre_coordinates(showtimes_df=movie_program_df, GOOGLE_CREDENTIALS_PATH=google_credentials_path,
