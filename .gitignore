@@ -7,6 +7,10 @@
 # Zipped data files
 *.gz
 
+### Models ###
+*.sav
+/models/*
+
 ### Data ###
 *.csv
 *.dat
