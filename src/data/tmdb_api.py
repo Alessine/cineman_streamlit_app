@@ -127,6 +127,7 @@ def get_specific_movie_overviews(TMDB_IDS_FILE_PATH, TMDB_CREDENTIALS_PATH, DATA
     current_ids = selected_films_df["id"]
     taglines = []
     overviews = []
+    movie_genres = []
 
     # request info for each movie and store the movie overviews in a list
     for movie_id in current_ids:
@@ -135,10 +136,16 @@ def get_specific_movie_overviews(TMDB_IDS_FILE_PATH, TMDB_CREDENTIALS_PATH, DATA
         movie_json = req.json()
         taglines.append(movie_json["tagline"])
         overviews.append(movie_json["overview"])
+        genres = []
+        for genre in movie_json["genres"]:
+            genres.append(genre["name"])
+        genre_string = " ".join(genres)
+        movie_genres.append(genre_string)
 
     # create the new dataframe with the movie overviews column
     movies_overviews_df = selected_films_df
     movies_overviews_df["tagline"] = taglines
     movies_overviews_df["overview"] = overviews
+    movies_overviews_df["genres_string"] = movie_genres
 
     movies_overviews_df.to_csv(DATA_PATH_DESC)
