@@ -75,14 +75,10 @@ def main():
         all_movies_corpus = pd.read_csv(data_path_comb_corpus)
         doc_similarities = pd.read_csv(data_path_doc_sims)
 
-    fav_movie = "Despicable Me"
-    movie_rec = rf.recent_movie_recommender(movie_title=fav_movie, all_movies_desc=all_movies_corpus,
-                                            recent_movies_desc=movie_desc, similarities_df=doc_similarities)
-    print(movie_rec)
-
     # Create the app
     mapbox_access_path = os.getenv("MAPBOX_ACCESS_PATH")
-    create_app(cineman_df=cineman_df, movie_desc=movie_desc, MAPBOX_ACCESS_PATH=mapbox_access_path)
+    create_app(cineman_df=cineman_df, movie_desc=movie_desc, all_movies_desc=all_movies_corpus,
+               similarities_df=doc_similarities, MAPBOX_ACCESS_PATH=mapbox_access_path)
 
 
 if __name__ == '__main__':
