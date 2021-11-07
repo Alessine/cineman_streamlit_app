@@ -80,10 +80,11 @@ def normalize_document(doc, stop_words=stop_words_eng):
 normalize_corpus = np.vectorize(normalize_document)
 
 
-def generate_movie_corpus(old_movies_desc, recent_movies_desc, path_normalized_corpus):
+def generate_movie_corpus(old_movies_desc, recent_movies_desc, path_combined_corpus):
     old_movies_desc_corp = prepare_movie_descriptions(old_movies_desc)
     recent_movies_desc_corp = prepare_movie_descriptions(recent_movies_desc)
     all_movies_corpus = pd.concat([old_movies_desc_corp, recent_movies_desc_corp]).drop_duplicates(
         "original_title", keep="last").reset_index(drop=True)
-    norm_movie_corpus = normalize_corpus(all_movies_corpus)
-    return norm_movie_corpus
+    all_movies_corpus.to_csv(path_combined_corpus)
+    norm_movie_desc = normalize_corpus(list(all_movies_corpus["description"]))
+    return all_movies_corpus, norm_movie_desc
