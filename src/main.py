@@ -42,8 +42,8 @@ def main():
                                      DATA_PATH_SHOWS=data_path_shows, DATA_PATH_DESC=data_path_desc, movies_list=None)
 
         # Loading the saved data
-        cineman_df = pd.read_csv(data_path_shows)
-        movie_desc = pd.read_csv(data_path_desc)
+        cineman_df = pd.read_csv(data_path_shows, index_col=0)
+        movie_desc = pd.read_csv(data_path_desc, index_col=0)
 
     # If it's a Thursday, create the new corpus and retrain the model
     data_path_doc_sims = os.getenv("DATA_PATH_DOC_SIMS")
@@ -72,8 +72,8 @@ def main():
         doc_similarities = rf.calc_cosine_similarity(document_vectors=doc_vecs_ft, path_doc_sims=data_path_doc_sims)
 
     else:
-        all_movies_corpus = pd.read_csv(data_path_comb_corpus)
-        doc_similarities = pd.read_csv(data_path_doc_sims)
+        all_movies_corpus = pd.read_csv(data_path_comb_corpus, index_col=0)
+        doc_similarities = pd.read_csv(data_path_doc_sims, index_col=0)
 
     # Create the app
     mapbox_access_path = os.getenv("MAPBOX_ACCESS_PATH")
