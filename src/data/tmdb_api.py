@@ -12,7 +12,8 @@ def fetch_tmdb_movie_ids(TMDB_IDS_FILE_PATH):
     Then it unzippes the file and stores its contents in a data frame.
 
     Optional arguments:
-    - directory: string, path to the folder where the zipped file from tmdb will be saved, defaults to TMDB_IDS_FILE_PATH (user dependent)
+    - directory: string, path to the folder where the zipped file from tmdb will be saved, defaults to
+        TMDB_IDS_FILE_PATH (user dependent)
 
     Returns:
     - movie_id_df: pandas dataframe containing the ID and other information on all the tmdb movies.

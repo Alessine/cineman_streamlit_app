@@ -19,3 +19,7 @@ numpy~=1.21.3
 plotly~=5.3.1
 streamlit~=1.1.0
 setuptools~=58.2.0
+gensim~=4.1.2
+scikit-learn~=1.0.1
+contractions~=0.0.55
+nltk~=3.6.5

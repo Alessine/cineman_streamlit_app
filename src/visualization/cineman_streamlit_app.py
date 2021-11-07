@@ -5,12 +5,8 @@ import visualization.plotting_functions as pf
 import models.reco_functions as rf
 
 
-def create_app(cineman_df, movie_desc, all_movies_desc, similarities_df,  MAPBOX_ACCESS_PATH):
-    # Cleaning (already added to scraping script)
- #   cineman_df["dt_showtime"] = cineman_df["date"] + " " + cineman_df["showtime"]
- #   cineman_df["dt_showtime"] = pd.to_datetime(cineman_df["dt_showtime"], format='%Y-%m-%d %H:%M')
-
-    # Headers
+def create_app(cineman_df, movie_desc, all_movies_desc, similarities_df, MAPBOX_ACCESS_PATH):
+    # Header
     st.title(f"Movies in Zurich, {date.today()}")
 
     # First all the stuff that goes in the sidebar

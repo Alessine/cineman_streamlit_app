@@ -10,9 +10,9 @@ import re
 import json
 
 
-def is_time_format(input):
+def is_time_format(str_input):
     try:
-        time.strptime(input, '%H:%M')
+        time.strptime(str_input, '%H:%M')
         return True
     except ValueError:
         return False
@@ -175,7 +175,8 @@ def format_cineman_content(html_content):
 
 def get_theatre_coordinates(showtimes_df, GOOGLE_CREDENTIALS_PATH, DATA_PATH_SHOWS):
     """
-    This function takes in a dataframe with the names of movie theatres and the path to the credentials for the google api.
+    This function takes in a dataframe with the names of movie theatres and the path to the
+    credentials for the google api.
     It then requests the coordinates for the movie theatres via the api and stores them in a dataframe.
 
     Required arguments:
