@@ -12,7 +12,6 @@
 /models/*
 
 ### Data ###
-*.csv
 *.dat
 *.efx
 *.gbr
@@ -24,7 +23,8 @@
 *.tax2010
 *.vcf
 *.xml
-/data/*
+/data/processed/*
+/data/external/*
 
 __pycache__/
 *.py[cod]
