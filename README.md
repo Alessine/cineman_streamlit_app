@@ -6,12 +6,13 @@ Foto by [Denise Jans](https://unsplash.com/@dmjdenise)
 
 Purpose
 ---------
-I love going to the theatre to watch a movie, especially on a rainy weekend (which is most weekends in Zurich...). But more often than not, I found myself not being able to choose a movie out of all the ones being shown at any given time. Often I would end up just watching the most well-known big budget movie currently on, because I didn't want to spend time looking through the trailers of all the smaller alternative productions, but then I felt like I was missing out on too much of the diversity of movies available. Over the past few months, I built this movie recommender to solve this problem for me.
+I love going to the theatre to watch a movie, especially on a rainy weekend (which is most weekends in Zurich...). But more often than not, I found myself not being able to choose a movie out of all the ones being shown. Often I would end up just watching the most well-known big budget movie currently on, because I didn't want to spend time looking through the trailers of all the smaller alternative productions, but then I felt like I was missing out on too much of the diversity of movies available. Over the past few months, I built this movie recommender to solve this problem for me.
 
 How it works
 ----------
 This Streamlit app takes as an input the name of the user's favorite movie. It then compares the description for that movie (from tmdb) with the descriptions of all the movies that are currently running in Zurich. It recommends the most similar one and lists all the showtimes for the current date (scraped from cineman.ch).
 
+In order to compare the similarity of the movie descriptions, the app uses a FastText model to create document-level embeddings. All of these document vectors are then compared with each other and a similarity score is calculated based on the cosine similarity of the vectors. The similarity scores are stored in a matrix, which is used when making a recommendation.
 
 Project Organization
 ------------
