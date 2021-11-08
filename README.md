@@ -47,18 +47,18 @@ Here's how I've organized the project files:
     │   ├── __init__.py    <- Makes src a Python module
     │   │
     │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
+    │   │   ├── cineman_scraping.py
+    │   │   └── tmdb_api.py
     │   │
     │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
+    │   │   └── corpus_prep.py
     │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
+    │   ├── models         <- Scripts to train models and generate the similarity matrix
+    │   │   └── reco_functions.py
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
+    │   └── visualization  <- Scripts to create visualizations and the streamlit app
+    │       ├── cineman_streamlit_app.py
+    │       └── plotting_functions.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
