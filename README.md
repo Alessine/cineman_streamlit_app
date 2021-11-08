@@ -1,6 +1,8 @@
 Zurich Movie Recommender
 ==============================
 
+![Foto by [Denise Jans](https://unsplash.com/@dmjdenise)](theatre_seats.jpg)
+
 Purpose
 ---------
 I love going to the theatre to watch a movie, especially on a rainy weekend (which is most weekends in Zurich...). But more often than not, I found myself not being able to choose a movie out of all the ones being shown at any given time. Often I would end up just watching the most well-known big budget movie currently on, because I didn't want to spend time looking through the trailers of all the smaller alternative productions, but then I felt like I was missing out on too much of the diversity of movies available. Over the past few months, I built this movie recommender to solve this problem for me.
@@ -12,23 +14,23 @@ This Streamlit app takes as an input the name of the user's favorite movie. It t
 
 Project Organization
 ------------
+Here's how I've organized the project files:
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   ├── external       <- Data from third party sources. [not being versioned]
+    │   ├── processed      <- The final, canonical data sets for modeling. [not being versioned]
     │   └── raw            <- The original, immutable data dump.
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Trained or pretrained models, similarity matrices
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Jupyter notebooks. Naming convention is the date when I started working 
+    │                         on it (YYMMDD), and a short `_` delimited description, e.g.
+    │                         `211010_cineman_scraping.ipynb`.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
