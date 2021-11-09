@@ -1,0 +1,218 @@
+,movie,genre,age_limit,language,showtime,date,cinema,place,dt_showtime,cinema_place,latitude,longitude
+0,Tiger und Büffel,Documentary,12Y.,O/g,11:40,2021-11-09,Houdini,Zürich,2021-11-09 11:40:00,Houdini Zürich,47.3746074,8.5203069
+1,Wild,Documentary,12Y.,O/g,11:40,2021-11-09,Houdini,Zürich,2021-11-09 11:40:00,Houdini Zürich,47.3746074,8.5203069
+2,Azor,,16Y.,O/ge,11:50,2021-11-09,Houdini,Zürich,2021-11-09 11:50:00,Houdini Zürich,47.3746074,8.5203069
+3,"Quo Vadis, Aida?","Drama, War",14/12Y.,O/gf,12:00,2021-11-09,Houdini,Zürich,2021-11-09 12:00:00,Houdini Zürich,47.3746074,8.5203069
+4,The Story of My Wife,"Drama, Romance",12Y.,E/g,12:00,2021-11-09,Houdini,Zürich,2021-11-09 12:00:00,Houdini Zürich,47.3746074,8.5203069
+5,The Truffle Hunters,Documentary,10/6Y.,I/gf,12:15,2021-11-09,Arthouse Le Paris,Zürich,2021-11-09 12:15:00,Arthouse Le Paris Zürich,47.3664352,8.547469399999999
+6,"Hilfe, ich habe meine Freunde geschrumpft",Children,6/4Y.,G,13:10,2021-11-09,Kosmos,Zürich,2021-11-09 13:10:00,Kosmos Zürich,47.3799807,8.5290807
+7,The French Dispatch,"Comedy, Drama, Romance",14/12Y.,E/gf,13:10,2021-11-09,Kosmos,Zürich,2021-11-09 13:10:00,Kosmos Zürich,47.3799807,8.5290807
+8,Badenfahrt - Fest vereint,Documentary,8/0Y.,CH/g,13:30,2021-11-09,Stüssihof,Zürich,2021-11-09 13:30:00,Stüssihof Zürich,47.3723239,8.5437701
+9,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,E/gf,13:30,2021-11-09,Kosmos,Zürich,2021-11-09 13:30:00,Kosmos Zürich,47.3799807,8.5290807
+10,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,E/gf,13:40,2021-11-09,Arena Cinemas,Zürich,2021-11-09 13:40:00,Arena Cinemas Zürich,47.3584227,8.5226872
+11,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,G,13:50,2021-11-09,Arena Cinemas,Zürich,2021-11-09 13:50:00,Arena Cinemas Zürich,47.3584227,8.5226872
+12,Harald Naegeli - Der Sprayer von Zürich,Documentary,12Y.,O/g,13:30,2021-11-09,Riffraff,Zürich,2021-11-09 13:30:00,Riffraff Zürich,47.3827835,8.5290454
+13,Die Schule der magischen Tiere,"Adventure, Children",4Y.,G,13:45,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 13:45:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+14,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,13:45,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 13:45:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+15,Tom & Jerry,"Adventure, Animation, Children, Comedy",8/6Y.,G,13:45,2021-11-09,Arena Cinemas,Zürich,2021-11-09 13:45:00,Arena Cinemas Zürich,47.3584227,8.5226872
+16,Und morgen seid ihr tot,Drama,14/12Y.,CH/g,13:45,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 13:45:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+17,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,13:50,2021-11-09,Arena Cinemas,Zürich,2021-11-09 13:50:00,Arena Cinemas Zürich,47.3584227,8.5226872
+18,No Time to Die,"Action, Adventure, Thriller",14Y.,G,13:50,2021-11-09,Arena Cinemas,Zürich,2021-11-09 13:50:00,Arena Cinemas Zürich,47.3584227,8.5226872
+19,Pat & Mat im Winter,"Animation, Children",6/0Y.,G,13:50,2021-11-09,Houdini,Zürich,2021-11-09 13:50:00,Houdini Zürich,47.3746074,8.5203069
+20,Zibilla et petits contes sur la difference,Animation,unknown,G,13:50,2021-11-09,Houdini,Zürich,2021-11-09 13:50:00,Houdini Zürich,47.3746074,8.5203069
+21,Die Schule der magischen Tiere,"Adventure, Children",4Y.,G,14:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+22,Die Schule der magischen Tiere,"Adventure, Children",4Y.,G,14:20,2021-11-09,Arena Cinemas,Zürich,2021-11-09 14:20:00,Arena Cinemas Zürich,47.3584227,8.5226872
+23,Die Schule der magischen Tiere,"Adventure, Children",4Y.,G,14:30,2021-11-09,Houdini,Zürich,2021-11-09 14:30:00,Houdini Zürich,47.3746074,8.5203069
+24,Die Schule der magischen Tiere,"Adventure, Children",4Y.,G,14:30,2021-11-09,Kosmos,Zürich,2021-11-09 14:30:00,Kosmos Zürich,47.3799807,8.5290807
+25,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,G,14:00,2021-11-09,Arena Cinemas,Zürich,2021-11-09 14:00:00,Arena Cinemas Zürich,47.3584227,8.5226872
+26,Juzni vetar 2: Ubrzanje,"Crime, Drama, Thriller",18/16Y.,O/g,14:00,2021-11-09,Riffraff,Zürich,2021-11-09 14:00:00,Riffraff Zürich,47.3827835,8.5290454
+27,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,14:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+28,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,14:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+29,No Time to Die,"Action, Adventure, Thriller",14Y.,G,14:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+30,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,14:00,2021-11-09,blue Cinema Metropol,Zürich,2021-11-09 14:00:00,blue Cinema Metropol Zürich,47.3737637,8.530738099999999
+31,No Time to Die,"Action, Adventure, Thriller",14Y.,G,14:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 14:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+32,Titane,"Mystery, Thriller",16Y.,F/g,14:00,2021-11-09,Riffraff,Zürich,2021-11-09 14:00:00,Riffraff Zürich,47.3827835,8.5290454
+33,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,G,14:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+34,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,G,14:15,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:15:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+35,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,E/gf,14:15,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 14:15:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+36,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,G,14:20,2021-11-09,Arena Cinemas,Zürich,2021-11-09 14:20:00,Arena Cinemas Zürich,47.3584227,8.5226872
+37,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,E/gf,14:30,2021-11-09,blue Cinema Metropol,Zürich,2021-11-09 14:30:00,blue Cinema Metropol Zürich,47.3737637,8.530738099999999
+38,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,14:10,2021-11-09,Arena Cinemas,Zürich,2021-11-09 14:10:00,Arena Cinemas Zürich,47.3584227,8.5226872
+39,Yakari - Grosse Stürme mit kleiner Donner,Animation,6/0Y.,G,14:10,2021-11-09,Houdini,Zürich,2021-11-09 14:10:00,Houdini Zürich,47.3746074,8.5203069
+40,The Boss Baby: Family Business,"Adventure, Animation, Children, Comedy, Fantasy",6Y.,G,14:15,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 14:15:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+41,The Boss Baby: Family Business,"Adventure, Animation, Children, Comedy, Fantasy",6Y.,G,14:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+42,Contra,Comedy,12Y.,G,14:15,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:15:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+43,Contra,Comedy,12Y.,G,14:15,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 14:15:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+44,Contra,Comedy,12Y.,G,14:15,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 14:15:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+45,Contra,Comedy,12Y.,G,14:15,2021-11-09,Arena Cinemas,Zürich,2021-11-09 14:15:00,Arena Cinemas Zürich,47.3584227,8.5226872
+46,The Croods 2,"Adventure, Animation, Children, Comedy, Fantasy",6Y.,G,14:15,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:15:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+47,Herr Bachmann und seine Klasse,Documentary,8Y.,G,14:15,2021-11-09,Arthouse Uto,Zürich,2021-11-09 14:15:00,Arthouse Uto Zürich,47.3741858,8.5213039
+48,Red Notice,"Action, Comedy, Crime, Thriller",14/12Y.,G,14:15,2021-11-09,Arena Cinemas,Zürich,2021-11-09 14:15:00,Arena Cinemas Zürich,47.3584227,8.5226872
+49,Red Notice,"Action, Comedy, Crime, Thriller",14/12Y.,E/g,14:30,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 14:30:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+50,Red Notice,"Action, Comedy, Crime, Thriller",14/12Y.,G,14:45,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:45:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+51,Ron's Gone Wrong,"Animation, Children, Comedy, Sci-fi",12/8Y.,G,14:15,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 14:15:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+52,Space Jam: A New Legacy,"Animation, Comedy",10/8Y.,G,14:15,2021-11-09,Arena Cinemas,Zürich,2021-11-09 14:15:00,Arena Cinemas Zürich,47.3584227,8.5226872
+53,Burning Memories,Documentary,14Y.,G,14:20,2021-11-09,Riffraff,Zürich,2021-11-09 14:20:00,Riffraff Zürich,47.3827835,8.5290454
+54,Und morgen seid ihr tot,Drama,14/12Y.,CH/g,14:20,2021-11-09,Kosmos,Zürich,2021-11-09 14:20:00,Kosmos Zürich,47.3799807,8.5290807
+55,Paw Patrol: The Movie,"Animation, Children",6Y.,G,14:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+56,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,G,14:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 14:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+57,Die Welt wird eine andere sein,,16/12Y.,G,14:40,2021-11-09,Kosmos,Zürich,2021-11-09 14:40:00,Kosmos Zürich,47.3799807,8.5290807
+58,Tom & Jerry,"Adventure, Animation, Children, Comedy",8/6Y.,G,14:45,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 14:45:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+59,The Story of My Wife,"Drama, Romance",12Y.,E/g,15:05,2021-11-09,Arthouse Movie,Zürich,2021-11-09 15:05:00,Arthouse Movie Zürich,47.3707036,8.5437007
+60,Und morgen seid ihr tot,Drama,14/12Y.,O/gf,15:20,2021-11-09,Arthouse Alba,Zürich,2021-11-09 15:20:00,Arthouse Alba Zürich,47.3761085,8.544658199999999
+61,The Croods 2,"Adventure, Animation, Children, Comedy, Fantasy",6Y.,G,15:30,2021-11-09,Houdini,Zürich,2021-11-09 15:30:00,Houdini Zürich,47.3746074,8.5203069
+62,Die Schule der magischen Tiere,"Adventure, Children",unknown,G,15:30,2021-11-09,Stüssihof,Zürich,2021-11-09 15:30:00,Stüssihof Zürich,47.3723239,8.5437701
+63,Ron's Gone Wrong,"Animation, Children, Comedy, Sci-fi",12Y.,G,15:30,2021-11-09,Kosmos,Zürich,2021-11-09 15:30:00,Kosmos Zürich,47.3799807,8.5290807
+64,"Chien pourri, la vie à Paris",Animation,6/0Y.,G,15:30,2021-11-09,Houdini,Zürich,2021-11-09 15:30:00,Houdini Zürich,47.3746074,8.5203069
+65,Supernova,Drama,14Y.,E/gf,15:30,2021-11-09,Arthouse Piccadilly,Zürich,2021-11-09 15:30:00,Arthouse Piccadilly Zürich,47.365993,8.5489046
+66,The French Dispatch,"Comedy, Drama, Romance",14/12Y.,E/gf,15:30,2021-11-09,Arthouse Le Paris,Zürich,2021-11-09 15:30:00,Arthouse Le Paris Zürich,47.3664352,8.547469399999999
+67,The French Dispatch,"Comedy, Drama, Romance",14/12Y.,E/gf,15:40,2021-11-09,Kosmos,Zürich,2021-11-09 15:40:00,Kosmos Zürich,47.3799807,8.5290807
+68,Lamb,"Drama, Horror, Mystery",16Y.,O/ge,15:40,2021-11-09,Riffraff,Zürich,2021-11-09 15:40:00,Riffraff Zürich,47.3827835,8.5290454
+69,Pat & Mat im Winter,"Animation, Children",6/0Y.,G,15:40,2021-11-09,Houdini,Zürich,2021-11-09 15:40:00,Houdini Zürich,47.3746074,8.5203069
+70,Petite maman,"Drama, Fantasy",10/6Y.,F/g,16:00,2021-11-09,Arthouse Movie,Zürich,2021-11-09 16:00:00,Arthouse Movie Zürich,47.3707036,8.5437007
+71,Nomadland,Drama,12/6Y.,E/gf,16:10,2021-11-09,Riffraff,Zürich,2021-11-09 16:10:00,Riffraff Zürich,47.3827835,8.5290454
+72,Harald Naegeli - Der Sprayer von Zürich,Documentary,12Y.,O/g,16:15,2021-11-09,Arthouse Piccadilly,Zürich,2021-11-09 16:15:00,Arthouse Piccadilly Zürich,47.365993,8.5489046
+73,The Father,Drama,14/12Y.,E/gf,16:20,2021-11-09,Houdini,Zürich,2021-11-09 16:20:00,Houdini Zürich,47.3746074,8.5203069
+74,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,16:30,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 16:30:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+75,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,G,16:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 16:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+76,No Time to Die,"Action, Adventure, Thriller",14Y.,G,16:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 16:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+77,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,16:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 16:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+78,No Time to Die,"Action, Adventure, Thriller",14Y.,G,16:45,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 16:45:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+79,No Time to Die,"Action, Adventure, Thriller",14Y.,G,16:30,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 16:30:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+80,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,16:30,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 16:30:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+81,The Man Who Sold His Skin,Drama,16Y.,O/gf,16:30,2021-11-09,Riffraff,Zürich,2021-11-09 16:30:00,Riffraff Zürich,47.3827835,8.5290454
+82,Hive,Drama,12Y.,O/ge,16:50,2021-11-09,Riffraff,Zürich,2021-11-09 16:50:00,Riffraff Zürich,47.3827835,8.5290454
+83,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,17:00,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 17:00:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+84,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,17:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 17:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+85,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,17:10,2021-11-09,Arena Cinemas,Zürich,2021-11-09 17:10:00,Arena Cinemas Zürich,47.3584227,8.5226872
+86,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,G,17:40,2021-11-09,Arena Cinemas,Zürich,2021-11-09 17:40:00,Arena Cinemas Zürich,47.3584227,8.5226872
+87,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,17:20,2021-11-09,Houdini,Zürich,2021-11-09 17:20:00,Houdini Zürich,47.3746074,8.5203069
+88,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,E/gf,17:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 17:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+89,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,E/gf,17:00,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 17:00:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+90,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,E/gf,17:00,2021-11-09,blue Cinema Metropol,Zürich,2021-11-09 17:00:00,blue Cinema Metropol Zürich,47.3737637,8.530738099999999
+91,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,E/gf,17:00,2021-11-09,Kosmos,Zürich,2021-11-09 17:00:00,Kosmos Zürich,47.3799807,8.5290807
+92,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,E/gf,17:10,2021-11-09,Arena Cinemas,Zürich,2021-11-09 17:10:00,Arena Cinemas Zürich,47.3584227,8.5226872
+93,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,E/gf,17:20,2021-11-09,Arena Cinemas,Zürich,2021-11-09 17:20:00,Arena Cinemas Zürich,47.3584227,8.5226872
+94,Eternals,"Action, Adventure, Fantasy, Sci-fi",14/12Y.,G,17:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 17:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+95,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,17:00,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 17:00:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+96,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,17:00,2021-11-09,Houdini,Zürich,2021-11-09 17:00:00,Houdini Zürich,47.3746074,8.5203069
+97,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,17:00,2021-11-09,Kosmos,Zürich,2021-11-09 17:00:00,Kosmos Zürich,47.3799807,8.5290807
+98,No Time to Die,"Action, Adventure, Thriller",14Y.,G,17:20,2021-11-09,Arena Cinemas,Zürich,2021-11-09 17:20:00,Arena Cinemas Zürich,47.3584227,8.5226872
+99,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,17:20,2021-11-09,Arena Cinemas,Zürich,2021-11-09 17:20:00,Arena Cinemas Zürich,47.3584227,8.5226872
+100,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,17:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 17:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+101,No Time to Die,"Action, Adventure, Thriller",14Y.,G,17:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 17:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+102,No Time to Die,"Action, Adventure, Thriller",14Y.,G,17:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 17:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+103,The French Dispatch,"Comedy, Drama, Romance",14/12Y.,E/gf,17:00,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 17:00:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+104,The Last Duel,"Drama, History",16Y.,E/gf,17:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 17:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+105,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,E/gf,17:00,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 17:00:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+106,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,E/gf,17:30,2021-11-09,blue Cinema Metropol,Zürich,2021-11-09 17:30:00,blue Cinema Metropol Zürich,47.3737637,8.530738099999999
+107,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,G,17:45,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 17:45:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+108,Red Notice,"Action, Comedy, Crime, Thriller",14/12Y.,E/g,17:15,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 17:15:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+109,Red Notice,"Action, Comedy, Crime, Thriller",14/12Y.,G,17:45,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 17:45:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+110,Und morgen seid ihr tot,Drama,12Y.,CH/g,17:15,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 17:15:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+111,Und morgen seid ihr tot,Drama,12Y.,CH/g,17:45,2021-11-09,Kinocenter,Chur,2021-11-09 17:45:00,Kinocenter Chur,46.8520733,9.533791599999999
+112,Petite maman,"Drama, Fantasy",10/6Y.,F/g,17:20,2021-11-09,Houdini,Zürich,2021-11-09 17:20:00,Houdini Zürich,47.3746074,8.5203069
+113,Bekenntnisse des Hochstaplers Felix Krull,Drama,12Y.,G,17:30,2021-11-09,Stüssihof,Zürich,2021-11-09 17:30:00,Stüssihof Zürich,47.3723239,8.5437701
+114,Die Welt wird eine andere sein,,16/12Y.,G,17:30,2021-11-09,Kosmos,Zürich,2021-11-09 17:30:00,Kosmos Zürich,47.3799807,8.5290807
+115,L'Amore A Domicilio,,unknown,I/g,17:30,2021-11-09,Kinocenter,Chur,2021-11-09 17:30:00,Kinocenter Chur,46.8520733,9.533791599999999
+116,Shang-Chi and the Legend of the Ten Rings,"Action, Adventure, Fantasy",12Y.,E/gf,17:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 17:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+117,Supernova,Drama,14Y.,E/gf,17:30,2021-11-09,Kosmos,Zürich,2021-11-09 17:30:00,Kosmos Zürich,47.3799807,8.5290807
+118,Contra,Comedy,12Y.,G,17:40,2021-11-09,Arthouse Piccadilly,Zürich,2021-11-09 17:40:00,Arthouse Piccadilly Zürich,47.365993,8.5489046
+119,Dene wos guet geit,Drama,16Y.,O/gf,18:00,2021-11-09,Xenix,Zürich,2021-11-09 18:00:00,Xenix Zürich,47.37528529999999,8.5261529
+120,Harald Naegeli - Der Sprayer von Zürich,Documentary,12Y.,O,18:00,2021-11-09,Kinocenter,Chur,2021-11-09 18:00:00,Kinocenter Chur,46.8520733,9.533791599999999
+121,Harald Naegeli - Der Sprayer von Zürich,Documentary,12Y.,O/g,18:30,2021-11-09,Arthouse Piccadilly,Zürich,2021-11-09 18:30:00,Arthouse Piccadilly Zürich,47.365993,8.5489046
+122,Harald Naegeli - Der Sprayer von Zürich,Documentary,12Y.,O/g,18:50,2021-11-09,Riffraff,Zürich,2021-11-09 18:50:00,Riffraff Zürich,47.3827835,8.5290454
+123,Juzni vetar 2: Ubrzanje,"Crime, Drama, Thriller",18/16Y.,O/g,18:00,2021-11-09,Riffraff,Zürich,2021-11-09 18:00:00,Riffraff Zürich,47.3827835,8.5290454
+124,Petite maman,"Drama, Fantasy",10/6Y.,F/g,18:00,2021-11-09,Arthouse Movie,Zürich,2021-11-09 18:00:00,Arthouse Movie Zürich,47.3707036,8.5437007
+125,The French Dispatch,"Comedy, Drama, Romance",14/12Y.,E/gf,18:00,2021-11-09,Arthouse Le Paris,Zürich,2021-11-09 18:00:00,Arthouse Le Paris Zürich,47.3664352,8.547469399999999
+126,The French Dispatch,"Comedy, Drama, Romance",14/12Y.,E/gf,18:20,2021-11-09,Kosmos,Zürich,2021-11-09 18:20:00,Kosmos Zürich,47.3799807,8.5290807
+127,Und morgen seid ihr tot,Drama,14/12Y.,O/gf,18:00,2021-11-09,Arthouse Alba,Zürich,2021-11-09 18:00:00,Arthouse Alba Zürich,47.3761085,8.544658199999999
+128,Und morgen seid ihr tot,Drama,14/12Y.,CH/g,18:10,2021-11-09,Kosmos,Zürich,2021-11-09 18:10:00,Kosmos Zürich,47.3799807,8.5290807
+129,Wild,Documentary,12Y.,CH/g,18:00,2021-11-09,Apollo,Chur,2021-11-09 18:00:00,Apollo Chur,46.8550628,9.524390200000001
+130,Yossi,Drama,16/0Y.,O/gf,18:00,2021-11-09,Filmpodium,Zürich,2021-11-09 18:00:00,Filmpodium Zürich,47.3715739,8.536824700000002
+131,Die Schule der magischen Tiere,"Adventure, Children",3Y.,G,18:10,2021-11-09,Arena Cinemas,Zürich,2021-11-09 18:10:00,Arena Cinemas Zürich,47.3584227,8.5226872
+132,Space Jam: A New Legacy,"Animation, Comedy",10/8Y.,G,18:10,2021-11-09,Arena Cinemas,Zürich,2021-11-09 18:10:00,Arena Cinemas Zürich,47.3584227,8.5226872
+133,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,G,18:10,2021-11-09,Arena Cinemas,Zürich,2021-11-09 18:10:00,Arena Cinemas Zürich,47.3584227,8.5226872
+134,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,G,18:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 18:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+135,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,E/gf,18:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 18:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+136,Contra,Comedy,12Y.,G,18:20,2021-11-09,Houdini,Zürich,2021-11-09 18:20:00,Houdini Zürich,47.3746074,8.5203069
+137,Contra,Comedy,12Y.,G,18:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 18:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+138,Red Notice,"Action, Comedy, Crime, Thriller",14/12Y.,G,18:20,2021-11-09,Arena Cinemas,Zürich,2021-11-09 18:20:00,Arena Cinemas Zürich,47.3584227,8.5226872
+139,After We Fell,Romance,14Y.,G,18:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 18:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+140,Burning Memories,Documentary,14Y.,G,18:30,2021-11-09,Riffraff,Zürich,2021-11-09 18:30:00,Riffraff Zürich,47.3827835,8.5290454
+141,Schachnovelle,Drama,12Y.,G,18:30,2021-11-09,Arthouse Movie,Zürich,2021-11-09 18:30:00,Arthouse Movie Zürich,47.3707036,8.5437007
+142,Bad Luck Banging or Loony Porn,"Comedy, Drama",18Y.,O/gf,18:35,2021-11-09,Arthouse Uto,Zürich,2021-11-09 18:35:00,Arthouse Uto Zürich,47.3741858,8.5213039
+143,Azor,,16Y.,O/ge,18:40,2021-11-09,Houdini,Zürich,2021-11-09 18:40:00,Houdini Zürich,47.3746074,8.5203069
+144,Lamb,"Drama, Horror, Mystery",16Y.,O/ge,18:50,2021-11-09,Riffraff,Zürich,2021-11-09 18:50:00,Riffraff Zürich,47.3827835,8.5290454
+145,Petite maman,"Drama, Fantasy",10/6Y.,F/g,19:10,2021-11-09,Houdini,Zürich,2021-11-09 19:10:00,Houdini Zürich,47.3746074,8.5203069
+146,Atlas,Drama,14/12Y.,I/g,19:30,2021-11-09,Rosental,Heiden,2021-11-09 19:30:00,Rosental Heiden,47.4426263,9.533398199999999
+147,No Time to Die,"Action, Adventure, Thriller",14Y.,G,19:45,2021-11-09,Kinocenter,Chur,2021-11-09 19:45:00,Kinocenter Chur,46.8520733,9.533791599999999
+148,Ghost Fleet,Documentary,16Y.,O/g,19:50,2021-11-09,Kosmos,Zürich,2021-11-09 19:50:00,Kosmos Zürich,47.3799807,8.5290807
+149,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,20:00,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 20:00:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+150,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,G,20:20,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:20:00,Arena Cinemas Zürich,47.3584227,8.5226872
+151,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,20:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+152,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,20:30,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 20:30:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+153,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,20:30,2021-11-09,Kosmos,Zürich,2021-11-09 20:30:00,Kosmos Zürich,47.3799807,8.5290807
+154,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,20:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 20:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+155,Dune,"Action, Adventure, Drama, Sci-fi",14/12Y.,E/gf,20:40,2021-11-09,Houdini,Zürich,2021-11-09 20:40:00,Houdini Zürich,47.3746074,8.5203069
+156,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,G,20:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 20:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+157,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,G,20:15,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 20:15:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+158,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,E/gf,20:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 20:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+159,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,E/gf,20:30,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 20:30:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+160,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,E/gf,20:30,2021-11-09,blue Cinema Metropol,Zürich,2021-11-09 20:30:00,blue Cinema Metropol Zürich,47.3737637,8.530738099999999
+161,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,E/gf,20:30,2021-11-09,Kosmos,Zürich,2021-11-09 20:30:00,Kosmos Zürich,47.3799807,8.5290807
+162,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,G,20:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+163,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,E/gf,20:35,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:35:00,Arena Cinemas Zürich,47.3584227,8.5226872
+164,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,G,20:40,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:40:00,Arena Cinemas Zürich,47.3584227,8.5226872
+165,Eternals,"Action, Adventure, Fantasy, Sci-fi",12Y.,G,20:15,2021-11-09,Kinocenter,Chur,2021-11-09 20:15:00,Kinocenter Chur,46.8520733,9.533791599999999
+166,Halloween Kills,"Action, Horror, Thriller",18/16Y.,E/g,20:00,2021-11-09,Stüssihof,Zürich,2021-11-09 20:00:00,Stüssihof Zürich,47.3723239,8.5437701
+167,Halloween Kills,"Action, Horror, Thriller",18/16Y.,G,20:55,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:55:00,Arena Cinemas Zürich,47.3584227,8.5226872
+168,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:00,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 20:00:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+169,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:30,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 20:30:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+170,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:00,2021-11-09,blue Cinema Metropol,Zürich,2021-11-09 20:00:00,blue Cinema Metropol Zürich,47.3737637,8.530738099999999
+171,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:00,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:00:00,Arena Cinemas Zürich,47.3584227,8.5226872
+172,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:10,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:10:00,Arena Cinemas Zürich,47.3584227,8.5226872
+173,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:30,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:30:00,Arena Cinemas Zürich,47.3584227,8.5226872
+174,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:45,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:45:00,Arena Cinemas Zürich,47.3584227,8.5226872
+175,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:50,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:50:00,Arena Cinemas Zürich,47.3584227,8.5226872
+176,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:15,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 20:15:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+177,No Time to Die,"Action, Adventure, Thriller",14Y.,G,20:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 20:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+178,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:15,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 20:15:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+179,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:20,2021-11-09,Kosmos,Zürich,2021-11-09 20:20:00,Kosmos Zürich,47.3799807,8.5290807
+180,No Time to Die,"Action, Adventure, Thriller",14Y.,E/gf,20:30,2021-11-09,Houdini,Zürich,2021-11-09 20:30:00,Houdini Zürich,47.3746074,8.5203069
+181,Red Notice,"Action, Comedy, Crime, Thriller",12Y.,E/g,20:00,2021-11-09,blue Cinema Corso,Zürich,2021-11-09 20:00:00,blue Cinema Corso Zürich,47.3663426,8.546733999999999
+182,Red Notice,"Action, Comedy, Crime, Thriller",12Y.,G,20:45,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 20:45:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+183,Red Notice,"Action, Comedy, Crime, Thriller",12Y.,E/g,20:45,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 20:45:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+184,Red Notice,"Action, Comedy, Crime, Thriller",12Y.,G,20:15,2021-11-09,Apollo,Chur,2021-11-09 20:15:00,Apollo Chur,46.8550628,9.524390200000001
+185,Scarface,"Action, Crime, Drama",18/0Y.,E/g,20:00,2021-11-09,Xenix,Zürich,2021-11-09 20:00:00,Xenix Zürich,47.37528529999999,8.5261529
+186,Und morgen seid ihr tot,Drama,14/12Y.,CH/g,20:00,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 20:00:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+187,Und morgen seid ihr tot,Drama,14/12Y.,O/gf,20:40,2021-11-09,Arthouse Alba,Zürich,2021-11-09 20:40:00,Arthouse Alba Zürich,47.3761085,8.544658199999999
+188,Und morgen seid ihr tot,Drama,14/12Y.,CH/g,20:50,2021-11-09,Kosmos,Zürich,2021-11-09 20:50:00,Kosmos Zürich,47.3799807,8.5290807
+189,Nachbarn,Drama,12Y.,O/gf,20:10,2021-11-09,Arthouse Movie,Zürich,2021-11-09 20:10:00,Arthouse Movie Zürich,47.3707036,8.5437007
+190,Hive,Drama,12Y.,O/ge,20:20,2021-11-09,Riffraff,Zürich,2021-11-09 20:20:00,Riffraff Zürich,47.3827835,8.5290454
+191,Contra,Comedy,12Y.,G,20:30,2021-11-09,Kinocenter,Chur,2021-11-09 20:30:00,Kinocenter Chur,46.8520733,9.533791599999999
+192,Contra,Comedy,12Y.,G,20:45,2021-11-09,Arthouse Piccadilly,Zürich,2021-11-09 20:45:00,Arthouse Piccadilly Zürich,47.365993,8.5489046
+193,Contra,Comedy,12Y.,G,20:50,2021-11-09,Houdini,Zürich,2021-11-09 20:50:00,Houdini Zürich,47.3746074,8.5203069
+194,Contra,Comedy,12Y.,G,20:55,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:55:00,Arena Cinemas Zürich,47.3584227,8.5226872
+195,The French Dispatch,"Comedy, Drama, Romance",14/12Y.,E/gf,20:30,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 20:30:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+196,The French Dispatch,"Comedy, Drama, Romance",14/12Y.,E/gf,20:40,2021-11-09,Arthouse Le Paris,Zürich,2021-11-09 20:40:00,Arthouse Le Paris Zürich,47.3664352,8.547469399999999
+197,The Last Duel,"Drama, History",16Y.,E/gf,20:30,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 20:30:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+198,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,E/gf,20:30,2021-11-09,blue Cinema Capitol,Zürich,2021-11-09 20:30:00,blue Cinema Capitol Zürich,47.3778376,8.5441343
+199,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,G,20:55,2021-11-09,Arena Cinemas,Zürich,2021-11-09 20:55:00,Arena Cinemas Zürich,47.3584227,8.5226872
+200,Juzni vetar 2: Ubrzanje,"Crime, Drama, Thriller",18/16Y.,O/g,20:40,2021-11-09,Riffraff,Zürich,2021-11-09 20:40:00,Riffraff Zürich,47.3827835,8.5290454
+201,La noire de ...,,unknown,F/g,20:45,2021-11-09,Filmpodium,Zürich,2021-11-09 20:45:00,Filmpodium Zürich,47.3715739,8.536824700000002
+202,Contra,Comedy,12Y.,G,21:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 21:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+203,Escape Room 2: no way out,"Horror, Thriller",16Y.,G,21:00,2021-11-09,Arena Cinemas,Zürich,2021-11-09 21:00:00,Arena Cinemas Zürich,47.3584227,8.5226872
+204,Halloween Kills,"Action, Horror, Thriller",18/16Y.,G,21:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 21:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+205,Lamb,"Drama, Horror, Mystery",16Y.,O/ge,21:00,2021-11-09,Riffraff,Zürich,2021-11-09 21:00:00,Riffraff Zürich,47.3827835,8.5290454
+206,Petite maman,"Drama, Fantasy",10/6Y.,F/g,21:00,2021-11-09,Arthouse Movie,Zürich,2021-11-09 21:00:00,Arthouse Movie Zürich,47.3707036,8.5437007
+207,Petite maman,"Drama, Fantasy",10/6Y.,F/g,21:00,2021-11-09,Houdini,Zürich,2021-11-09 21:00:00,Houdini Zürich,47.3746074,8.5203069
+208,Red Notice,"Action, Comedy, Crime, Thriller",14/12Y.,G,21:00,2021-11-09,Arena Cinemas,Zürich,2021-11-09 21:00:00,Arena Cinemas Zürich,47.3584227,8.5226872
+209,The Organ Donor,Horror,18Y.,G,21:00,2021-11-09,Arena Cinemas,Zürich,2021-11-09 21:00:00,Arena Cinemas Zürich,47.3584227,8.5226872
+210,The Father,Drama,14/12Y.,E/gf,21:00,2021-11-09,Houdini,Zürich,2021-11-09 21:00:00,Houdini Zürich,47.3746074,8.5203069
+211,The French Dispatch,"Comedy, Drama, Romance",14/12Y.,E/gf,21:00,2021-11-09,Kosmos,Zürich,2021-11-09 21:00:00,Kosmos Zürich,47.3799807,8.5290807
+212,The Ice Road,"Action, Adventure, Drama, Thriller",16Y.,G,21:00,2021-11-09,Arena Cinemas,Zürich,2021-11-09 21:00:00,Arena Cinemas Zürich,47.3584227,8.5226872
+213,The Man Who Sold His Skin,Drama,16Y.,O/gf,21:00,2021-11-09,Arthouse Uto,Zürich,2021-11-09 21:00:00,Arthouse Uto Zürich,47.3741858,8.5213039
+214,Titane,"Mystery, Thriller",16Y.,F/g,21:00,2021-11-09,Riffraff,Zürich,2021-11-09 21:00:00,Riffraff Zürich,47.3827835,8.5290454
+215,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,E/gf,21:00,2021-11-09,blue Cinema Abaton,Zürich,2021-11-09 21:00:00,blue Cinema Abaton Zürich,47.3892435,8.521358900000001
+216,Venom: Let There Be Carnage,"Action, Sci-fi",14Y.,E/gf,21:00,2021-11-09,Arena Cinemas,Zürich,2021-11-09 21:00:00,Arena Cinemas Zürich,47.3584227,8.5226872
