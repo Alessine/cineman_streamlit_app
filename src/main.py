@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import os
+import time
 from dotenv import find_dotenv, load_dotenv
 import pandas as pd
 from datetime import date
@@ -34,21 +35,24 @@ def main():
         # Scraping the most recent data and saving it
         content = cs.scrape_cineman(cities=("Zürich"))
         movie_program_df = cs.format_cineman_content(html_content=content)
-        cs.get_theatre_coordinates(showtimes_df=movie_program_df, GOOGLE_CREDENTIALS_PATH=google_credentials_path,
-                                   DATA_PATH_SHOWS=data_path_shows)
+        cineman_df = cs.add_theatre_coordinates(movie_program_df)
+       # cs.get_theatre_coordinates(showtimes_df=movie_program_df, GOOGLE_CREDENTIALS_PATH=google_credentials_path,
+       #                            DATA_PATH_SHOWS=data_path_shows)
+        cineman_df.to_csv(data_path_shows)
 
         # Requesting movie overviews via the tmdb api and saving them
         get_specific_movie_overviews(TMDB_IDS_FILE_PATH=tmdb_ids_file_path, TMDB_CREDENTIALS_PATH=tmdb_credentials_path,
                                      DATA_PATH_SHOWS=data_path_shows, DATA_PATH_DESC=data_path_desc, movies_list=None)
 
         # Loading the saved data
-        cineman_df = pd.read_csv(data_path_shows, index_col=0)
+       # cineman_df = pd.read_csv(data_path_shows, index_col=0)
         movie_desc = pd.read_csv(data_path_desc, index_col=0)
 
-    # If it's a Thursday, create the new corpus and retrain the model
+    # If the model is more than a week old, create the new corpus and retrain the model
     data_path_doc_sims = os.getenv("DATA_PATH_DOC_SIMS")
     data_path_comb_corpus = os.getenv("DATA_PATH_COMB_CORPUS")
-    if date.today().weekday() == 3:
+
+    if time.time() - os.path.getmtime(data_path_doc_sims) > 600000:
         # Try loading saved processed data on old movies
         data_path_5000_proc = os.getenv("DATA_PATH_5000_PROCESSED")
         try:

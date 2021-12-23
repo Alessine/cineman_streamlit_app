@@ -22,12 +22,12 @@ def fetch_tmdb_movie_ids(TMDB_IDS_FILE_PATH):
     current_time = datetime.now()
 
     # If it's early, need to take the file from yesterday
-    if current_time.hour < 10:
+    if current_time.hour < 12:
         year = str(date.today() - timedelta(days=1))[0:4]
         month = str(date.today() - timedelta(days=1))[5:7]
         day = str(date.today() - timedelta(days=1))[8:10]
 
-    # After 10 o'clock, today's file should be available.
+    # After 12 o'clock, today's file should be available.
     else:
         year = str(date.today())[0:4]
         month = str(date.today())[5:7]

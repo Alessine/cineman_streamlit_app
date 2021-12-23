@@ -173,6 +173,43 @@ def format_cineman_content(html_content):
     return movie_program_df
 
 
+def add_theatre_coordinates(showtimes_df):
+    """
+    This function takes in a DataFrame with information on movies playing in Zurich.
+    It then maps the movie theatres to a dictionary with their coordinates.
+    It returns the same DataFrame with two additional columns for longitude and latitude.
+
+    Required arguments:
+    - showtimes_df, a pandas DataFrame
+
+    Returns:
+    - showtimes_df, the same DataFrame with two additional columns.
+    """
+
+    theatre_loc = {
+        "Arena Cinemas Zürich": {"latitude": 47.3584227, "longitude": 8.5226872},
+        "Arthouse Le Paris Zürich": {"latitude": 47.3664352, "longitude": 8.5474694},
+        "Arthouse Uto Zürich": {"latitude": 47.3741858, "longitude": 8.5213039},
+        "Arthouse Piccadilly Zürich": {"latitude": 47.365993, "longitude": 8.5489046},
+        "Arthouse Movie Zürich": {"latitude": 47.3707036, "longitude": 8.5437007},
+        "Arthouse Alba Zürich": {"latitude": 47.3761085, "longitude": 8.5446582},
+        "blue Cinema Abaton Zürich": {"latitude": 47.3892435, "longitude": 8.5213589},
+        "blue Cinema Capitol Zürich": {"latitude": 47.3778376, "longitude": 8.5441343},
+        "blue Cinema Corso Zürich": {"latitude": 47.3663426, "longitude": 8.546734},
+        "blue Cinema Metropol Zürich": {"latitude": 47.3737637, "longitude": 8.5307381},
+        "Filmpodium Zürich": {"latitude": 47.3715739, "longitude": 8.5368247},
+        "Houdini Zürich": {"latitude": 47.3746074, "longitude": 8.5203069},
+        "Kosmos Zürich": {"latitude": 47.3799807, "longitude": 8.5290807},
+        "Riffraff Zürich": {"latitude": 47.3827835, "longitude": 8.5290454},
+        "Stüssihof Zürich": {"latitude": 47.3723239, "longitude": 8.5437701},
+        "Xenix Zürich": {"latitude": 47.3752853, "longitude": 8.5261529}
+    }
+
+    showtimes_df[["latitude", "longitude"]] = pd.json_normalize(showtimes_df["cinema_place"].map(theatre_loc))
+
+    return showtimes_df
+
+
 def get_theatre_coordinates(showtimes_df, GOOGLE_CREDENTIALS_PATH, DATA_PATH_SHOWS):
     """
     This function takes in a dataframe with the names of movie theatres and the path to the
