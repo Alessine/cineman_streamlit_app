@@ -15,14 +15,15 @@ import models.reco_functions as rf
 def main():
     # Create connection to AWS S3 Bucket
     # `anon=False` means not anonymous, i.e. it uses access keys to pull data.
-    fs = s3fs.S3FileSystem(anon=False)
+    aws_key = st.secrets["aws_access_key_id"]
+    aws_secret = st.secrets["aws_secret_access_key"]
+    fs = s3fs.S3FileSystem(anon=False, key=aws_key, secret=aws_secret)
 
     # Reading in user-dependent variables: file paths
     data_path_shows = f"s3://zmr-streamlit-aws/data/raw/{date.today()}_showtimes.csv"
     data_path_desc = f"s3://zmr-streamlit-aws/data/raw/{date.today()}_zurich_movie_overviews.csv"
 
     # Try loading saved data on movies currently running in Zurich
-
     cineman_df = pd.read_csv(data_path_shows)
     movie_desc = pd.read_csv(data_path_desc)
 
