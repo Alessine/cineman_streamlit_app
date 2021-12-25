@@ -4,7 +4,7 @@ import numpy as np
 import re
 import contractions
 import nltk
-
+nltk.download('stopwords')
 
 # Helper Functions
 def get_movie_genres(movies_df):
