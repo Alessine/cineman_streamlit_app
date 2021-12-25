@@ -5,7 +5,7 @@ import visualization.plotting_functions as pf
 import models.reco_functions as rf
 
 
-def create_app(cineman_df, movie_desc, all_movies_desc, similarities_df, MAPBOX_ACCESS_PATH):
+def create_app(cineman_df, movie_desc, all_movies_desc, similarities_df, MAPBOX_ACCESS_TOKEN):
     # Header
     st.title(f"Movies in Zurich, {date.today()}")
 
@@ -43,7 +43,7 @@ def create_app(cineman_df, movie_desc, all_movies_desc, similarities_df, MAPBOX_
     left, right = st.columns([2, 1])
 
     # Create the map
-    plotly_map = pf.create_plotly_map(df=cineman_df_hour, MAPBOX_ACCESS_PATH=MAPBOX_ACCESS_PATH,
+    plotly_map = pf.create_plotly_map(df=cineman_df_hour, MAPBOX_ACCESS_TOKEN=MAPBOX_ACCESS_TOKEN,
                                       hour=selected_hour, movie=selected_movie)
     left.plotly_chart(plotly_map)
 
