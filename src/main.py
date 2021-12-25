@@ -5,6 +5,7 @@ import os
 import time
 from dotenv import find_dotenv, load_dotenv
 import pandas as pd
+import streamlit as st
 from datetime import date
 
 import data.cineman_scraping as cs
@@ -35,7 +36,7 @@ def main():
         # Scraping the most recent data and saving it
         content = cs.scrape_cineman(cities=("Zürich"))
         movie_program_df = cs.format_cineman_content(html_content=content)
-        cineman_df = cs.add_theatre_coordinates(movie_program_df)
+        cineman_df = cs.add_theatre_coordinates(showtimes_df=movie_program_df)
        # cs.get_theatre_coordinates(showtimes_df=movie_program_df, GOOGLE_CREDENTIALS_PATH=google_credentials_path,
        #                            DATA_PATH_SHOWS=data_path_shows)
         cineman_df.to_csv(data_path_shows)

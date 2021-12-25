@@ -3,6 +3,7 @@ import json
 import gzip
 import pandas as pd
 from urllib.request import urlretrieve
+from urllib.error import HTTPError
 from datetime import date, timedelta, datetime
 
 
@@ -18,23 +19,18 @@ def fetch_tmdb_movie_ids(TMDB_IDS_FILE_PATH):
     Returns:
     - movie_id_df: pandas dataframe containing the ID and other information on all the tmdb movies.
     """
-    # Download the most current file
-    current_time = datetime.now()
-
-    # If it's early, need to take the file from yesterday
-    if current_time.hour < 12:
+    # Try to get the file for today
+    try:
         year = str(date.today() - timedelta(days=1))[0:4]
         month = str(date.today() - timedelta(days=1))[5:7]
         day = str(date.today() - timedelta(days=1))[8:10]
 
-    # After 12 o'clock, today's file should be available.
-    else:
-        year = str(date.today())[0:4]
-        month = str(date.today())[5:7]
-        day = str(date.today())[8:10]
+        path = f"http://files.tmdb.org/p/exports/movie_ids_{month}_{day}_{year}.json.gz"
+        urlretrieve(path, TMDB_IDS_FILE_PATH)
 
-    path = f"http://files.tmdb.org/p/exports/movie_ids_{month}_{day}_{year}.json.gz"
-    urlretrieve(path, TMDB_IDS_FILE_PATH)
+    # If it's not available on TMDB, use the one already in the bucket
+    except HTTPError:
+        pass
 
     # Unzip the file
     with gzip.GzipFile(TMDB_IDS_FILE_PATH, 'r') as fin:
