@@ -1,13 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
-import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
 from datetime import date
 import re
-import json
 
 
 def is_time_format(str_input):
@@ -208,58 +206,3 @@ def add_theatre_coordinates(showtimes_df):
     showtimes_df[["latitude", "longitude"]] = pd.json_normalize(showtimes_df["cinema_place"].map(theatre_loc))
 
     return showtimes_df
-
-
-def get_theatre_coordinates(showtimes_df, GOOGLE_CREDENTIALS_PATH, DATA_PATH_SHOWS):
-    """
-    This function takes in a dataframe with the names of movie theatres and the path to the
-    credentials for the google api.
-    It then requests the coordinates for the movie theatres via the api and stores them in a dataframe.
-
-    Required arguments:
-    - showtimes_df: pandas dataframe containing a column with movie theatre names and places
-    - GOOGLE_CREDENTIALS_PATH: string, gives the path to the file with the google api credentials (user-dependent)
-    - DATA_PATH_SHOWS: string, gives the path where the dataframe should be saved (user-dependent)
-
-    Returns:
-    - showtimes_df: pandas dataframe that was given as an input, but with the coordinates added in for each theatre
-    """
-    # Getting location data from the Google API
-    key_json = json.load(open(GOOGLE_CREDENTIALS_PATH))
-    gmaps_key = key_json["key"]
-
-    url = "https://maps.googleapis.com/maps/api/place/textsearch/json?"
-    api_key = gmaps_key
-
-    latitudes_list = []
-    longitudes_list = []
-
-    for theatre in showtimes_df["cinema_place"].unique():
-        # text string on which to search
-        query = theatre
-
-        # get method of requests module, return response object
-        req = requests.get(url + "query=" + query + "&key=" + api_key)
-
-        # json method of response object: json format data -> python format data
-        places_json = req.json()
-
-        # now result contains list of nested dictionaries
-        my_result = places_json["results"]
-
-        # take a look at the first element
-        latitude = my_result[0]["geometry"]["location"]["lat"]
-        latitudes_list.append(latitude)
-
-        longitude = my_result[0]["geometry"]["location"]["lng"]
-        longitudes_list.append(longitude)
-
-    theatre_location_dict = dict()
-    theatre_location_dict["cinema_place"] = showtimes_df["cinema_place"].unique()
-    theatre_location_dict["latitude"] = latitudes_list
-    theatre_location_dict["longitude"] = longitudes_list
-
-    theatre_locations_df = pd.DataFrame(theatre_location_dict)
-    showtimes_df = pd.merge(showtimes_df, theatre_locations_df, how="left")
-
-    showtimes_df.to_csv(DATA_PATH_SHOWS)

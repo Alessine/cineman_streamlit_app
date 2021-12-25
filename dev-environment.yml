@@ -1,9 +1,0 @@
-name: streamlit_app
-channels:
-  - defaults
-dependencies:
-  - ipykernel
-  - pip
-  - pandas
-  - plotly
-prefix: /home/angela/anaconda3/envs/streamlit_app

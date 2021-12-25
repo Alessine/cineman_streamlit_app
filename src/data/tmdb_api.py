@@ -4,7 +4,8 @@ import gzip
 import pandas as pd
 from urllib.request import urlretrieve
 from urllib.error import HTTPError
-from datetime import date, timedelta, datetime
+from datetime import date, timedelta
+import s3fs
 
 
 def fetch_tmdb_movie_ids(TMDB_IDS_FILE_PATH):
@@ -19,6 +20,7 @@ def fetch_tmdb_movie_ids(TMDB_IDS_FILE_PATH):
     Returns:
     - movie_id_df: pandas dataframe containing the ID and other information on all the tmdb movies.
     """
+
     # Try to get the file for today
     try:
         year = str(date.today() - timedelta(days=1))[0:4]
@@ -33,10 +35,12 @@ def fetch_tmdb_movie_ids(TMDB_IDS_FILE_PATH):
         pass
 
     # Unzip the file
-    with gzip.GzipFile(TMDB_IDS_FILE_PATH, 'r') as fin:
-        json_bytes = fin.read()
+    fs = s3fs.S3FileSystem(anon=False)
+    with fs.open(TMDB_IDS_FILE_PATH) as f:
+        g = gzip.GzipFile(fileobj=f)
+        json_bytes = g.read()
 
-        # Format the output into a list of strings
+    # Format the output into a list of strings
     json_list_of_str = json_bytes.decode().split("\n")
 
     # Turn the list of strings into a list of dictionaries
@@ -95,7 +99,7 @@ def get_specific_movie_ids(TMDB_IDS_FILE_PATH, DATA_PATH_SHOWS, movies_list=None
     return selected_films_df
 
 
-def get_specific_movie_overviews(TMDB_IDS_FILE_PATH, TMDB_CREDENTIALS_PATH, DATA_PATH_SHOWS, DATA_PATH_DESC,
+def get_specific_movie_overviews(TMDB_IDS_FILE_PATH, TMDB_CREDENTIALS_PATH, DATA_PATH_SHOWS,
                                  movies_list=None):
     """
     This function takes in a directory, the path to a csv file or a list of movie titles and the path to the tmbd api credentials.
@@ -145,4 +149,4 @@ def get_specific_movie_overviews(TMDB_IDS_FILE_PATH, TMDB_CREDENTIALS_PATH, DATA
     movies_overviews_df["overview"] = overviews
     movies_overviews_df["genres_string"] = movie_genres
 
-    movies_overviews_df.to_csv(DATA_PATH_DESC)
+    return movies_overviews_df
