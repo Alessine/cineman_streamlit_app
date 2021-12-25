@@ -31,5 +31,7 @@ plotly~=5.3.1
 streamlit~=1.1.0
 
 # AWS
-aiobotocore[boto3]==2.0.1
-s3fs[boto3]==2021.11.1
+aiobotocore==2.0.1
+boto3==1.19.8
+botocore==1.22.8
+s3fs==2021.11.1
