@@ -30,7 +30,7 @@ def main():
     data_path_doc_sims = "s3://zmr-streamlit-aws/models/document_similarities.csv"
     data_path_comb_corpus = "s3://zmr-streamlit-aws/data/processed/comb_movie_corpus.csv"
 
-    if time.time() - fs.modified(data_path_doc_sims).timestamp() > 600:
+    if time.time() - fs.modified(data_path_doc_sims).timestamp() > 600000:
         # Try loading saved processed data on old movies
         data_path_5000_proc = "s3://zmr-streamlit-aws/data/processed/tmdb_5000_movies_proc.csv"
         try:
