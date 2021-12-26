@@ -15,9 +15,7 @@ import models.reco_functions as rf
 def main():
     # Create connection to AWS S3 Bucket
     # `anon=False` means not anonymous, i.e. it uses access keys to pull data.
-    aws_key = st.secrets["aws_access_key_id"]
-    aws_secret = st.secrets["aws_secret_access_key"]
-    fs = s3fs.S3FileSystem(anon=False, key=aws_key, secret=aws_secret)
+    fs = s3fs.S3FileSystem(anon=False)
 
     # Reading in user-dependent variables: file paths
     data_path_shows = f"s3://zmr-streamlit-aws/data/raw/{date.today()}_showtimes.csv"
