@@ -30,7 +30,7 @@ def get_movie_genres(movies_df):
     return movie_genres
 
 
-def process_kaggle_tmdb_dataset(path_kaggle_file, path_processed_file):
+def process_kaggle_tmdb_dataset(kaggle_file):
     """
     This function takes in the file path to the tmdb 5000 movies file from kaggle and adds the genres_string column.
 
@@ -38,12 +38,11 @@ def process_kaggle_tmdb_dataset(path_kaggle_file, path_processed_file):
     - path_kaggle_file: string, the path to the data file from kaggle
     - path_processed_file: string, the path where the processed file will be saved
     """
-    movie_desc_5000 = pd.read_csv(path_kaggle_file)
-    movie_desc_5000["genres_string"] = get_movie_genres(movie_desc_5000)
-    movie_desc_5000 = movie_desc_5000.sort_values("popularity", ascending=False).drop_duplicates("original_title"
-                                                                                                 ).reset_index()
-    movie_desc_5000.to_csv(path_processed_file)
-    return movie_desc_5000
+    kaggle_file["genres_string"] = get_movie_genres(kaggle_file)
+    kaggle_file = kaggle_file.sort_values("popularity", ascending=False)\
+        .drop_duplicates("original_title").reset_index()
+
+    return kaggle_file
 
 
 def prepare_movie_descriptions(df):
@@ -80,11 +79,11 @@ def normalize_document(doc, stop_words=stop_words_eng):
 normalize_corpus = np.vectorize(normalize_document)
 
 
-def generate_movie_corpus(old_movies_desc, recent_movies_desc, path_combined_corpus):
+def generate_movie_corpus(old_movies_desc, recent_movies_desc):
     old_movies_desc_corp = prepare_movie_descriptions(old_movies_desc)
     recent_movies_desc_corp = prepare_movie_descriptions(recent_movies_desc)
     all_movies_corpus = pd.concat([old_movies_desc_corp, recent_movies_desc_corp]).drop_duplicates(
         "original_title", keep="last").reset_index(drop=True)
-    all_movies_corpus.to_csv(path_combined_corpus)
     norm_movie_desc = normalize_corpus(list(all_movies_corpus["description"]))
+
     return all_movies_corpus, norm_movie_desc

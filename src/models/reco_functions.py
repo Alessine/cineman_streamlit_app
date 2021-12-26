@@ -5,17 +5,18 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 
-def train_ft_model(tokenized_docs, ft_model_path):
+def train_ft_model(norm_movie_desc):
+    tokenized_docs = [doc.split() for doc in norm_movie_desc]
     ft_model = FastText(tokenized_docs, vector_size=300, window=30, min_count=2, workers=4, sg=1, epochs=50)
-    pickle.dump(ft_model, open(ft_model_path, 'wb'))
-    return ft_model
+
+    return tokenized_docs, ft_model
 
 
 def averaged_word2vec_vectorizer(corpus, model, num_features):
     """
     Turns word level embeddings into document embeddings
     """
-    vocabulary = set(model.wv.index_to_key)
+    model_vocab = set(model.wv.index_to_key)
 
     def average_word_vectors(words, model, vocabulary, num_features):
         feature_vector = np.zeros((num_features,), dtype="float64")
@@ -30,14 +31,17 @@ def averaged_word2vec_vectorizer(corpus, model, num_features):
 
         return feature_vector
 
-    features = [average_word_vectors(tokenized_sentence, model, vocabulary, num_features)
+    features = [average_word_vectors(words=tokenized_sentence, model=model,
+                                     vocabulary=model_vocab, num_features=num_features)
                 for tokenized_sentence in corpus]
+
     return np.array(features)
 
 
-def calc_cosine_similarity(document_vectors, path_doc_sims):
+def calc_cosine_similarity(corpus, model, num_features):
+    document_vectors = averaged_word2vec_vectorizer(corpus=corpus, model=model, num_features=num_features)
     doc_similarities = pd.DataFrame(cosine_similarity(document_vectors))
-    doc_similarities.to_csv(path_doc_sims)
+
     return doc_similarities
 
 
