@@ -5,6 +5,7 @@ import re
 import contractions
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
 
 # Helper Functions
 def get_movie_genres(movies_df):
