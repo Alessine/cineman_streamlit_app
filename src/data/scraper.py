@@ -20,7 +20,7 @@ def scraper():
     tmdb_credentials_path = os.getenv("TMDB_CREDENTIALS_PATH")
 
     # Create connection to AWS S3 Bucket
-    fs = s3fs.S3FileSystem(anon=False)
+  #  fs = s3fs.S3FileSystem(anon=False)
 
     # Scraping the most recent data and saving it
     content = cs.scrape_cineman(cities=("Zürich"))

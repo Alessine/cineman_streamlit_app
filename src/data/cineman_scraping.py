@@ -32,12 +32,12 @@ def scrape_cineman(cities=("Zürich")):
     options.add_argument("--headless")
     driver = webdriver.Firefox(options=options)
     driver.get("https://www.cineman.ch/en/showtimes/city/")
-    time.sleep(15)  # have to wait for the advertisement to end
+    time.sleep(20)  # have to wait for the advertisement to end
 
     # Click the cookie button
     cookie_button = driver.find_element_by_class_name("cc-btn")
     cookie_button.click()
-    time.sleep(5)
+    time.sleep(10)
 
     # Sort the showtimes by time
     sorting_buttons = driver.find_elements_by_class_name("text-overflow-hidden")

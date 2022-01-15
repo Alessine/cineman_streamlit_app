@@ -20,7 +20,7 @@ def fetch_tmdb_movie_ids(TMDB_IDS_FILE_PATH):
     Returns:
     - movie_id_df: pandas dataframe containing the ID and other information on all the tmdb movies.
     """
-
+    fs = s3fs.S3FileSystem(anon=False)
     # Try to get the file for today
     try:
         year = str(date.today() - timedelta(days=1))[0:4]
@@ -28,14 +28,15 @@ def fetch_tmdb_movie_ids(TMDB_IDS_FILE_PATH):
         day = str(date.today() - timedelta(days=1))[8:10]
 
         path = f"http://files.tmdb.org/p/exports/movie_ids_{month}_{day}_{year}.json.gz"
-        urlretrieve(path, TMDB_IDS_FILE_PATH)
+        with fs.open(TMDB_IDS_FILE_PATH, "wb") as f:
+            r = requests.get(path)
+            f.write(r.content)
 
     # If it's not available on TMDB, use the one already in the bucket
     except HTTPError:
         pass
 
     # Unzip the file
-    fs = s3fs.S3FileSystem(anon=False)
     with fs.open(TMDB_IDS_FILE_PATH) as f:
         g = gzip.GzipFile(fileobj=f)
         json_bytes = g.read()
