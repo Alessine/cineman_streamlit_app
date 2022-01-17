@@ -18,7 +18,7 @@ import models.reco_functions as rf
 
 def scraper():
     # Start logging
-    logging.basicConfig(level=logging.INFO)
+    logger = logging.getLogger(__name__)
 
     # Defining file paths
     data_path_shows = f"s3://zmr-streamlit-aws/data/raw/{date.today()}_showtimes.csv"
@@ -27,7 +27,7 @@ def scraper():
 
     # Getting credentials
     tmdb_credentials_path = os.getenv("TMDB_CREDENTIALS_PATH")
-    logging.info('TMDB credentials fetched')
+    logger.info('TMDB credentials fetched')
 
     # Create connection to AWS S3 Bucket
     fs = s3fs.S3FileSystem(anon=False)
@@ -37,7 +37,7 @@ def scraper():
     movie_program_df = cs.format_cineman_content(html_content=content)
     cineman_df = cs.add_theatre_coordinates(showtimes_df=movie_program_df)
     cineman_df.to_csv(data_path_shows)
-    logging.info('First data file saved to bucket')
+    logger.info('First data file saved to bucket')
 
     # Requesting movie overviews via the tmdb api and saving them
     movie_desc = get_specific_movie_overviews(TMDB_IDS_FILE_PATH=tmdb_ids_file_path,
@@ -45,14 +45,14 @@ def scraper():
                                               DATA_PATH_SHOWS=data_path_shows,
                                               movies_list=None)
     movie_desc.to_csv(data_path_desc)
-    logging.info('Second data file saved to bucket')
+    logger.info('Second data file saved to bucket')
 
     # If the model is more than a week old, create the new corpus and retrain the model
     data_path_doc_sims = "s3://zmr-streamlit-aws/models/document_similarities.csv"
     data_path_comb_corpus = "s3://zmr-streamlit-aws/data/processed/comb_movie_corpus.csv"
 
     if time.time() - fs.modified(data_path_doc_sims).timestamp() > 600000:
-        logging.info('Retraining model')
+        logger.info('Retraining model')
         # Try loading saved processed data on old movies
         data_path_5000_proc = "s3://zmr-streamlit-aws/data/processed/tmdb_5000_movies_proc.csv"
         try:
@@ -73,14 +73,20 @@ def scraper():
         ft_model_path = "s3://zmr-streamlit-aws/models/fast_text_model.sav"
         tokenized_docs, ft_model = rf.train_ft_model(norm_movie_desc)
         pickle.dump(ft_model, fs.open(ft_model_path, 'wb'))
-        logging.info('Retrained model saved to bucket')
+        logger.info('Retrained model saved to bucket')
 
         # Calculate document vectors and similarities
         doc_similarities = rf.calc_cosine_similarity(corpus=tokenized_docs, model=ft_model, num_features=300)
         doc_similarities.to_csv(data_path_doc_sims)
-        logging.info('Document similarity matrix saved to bucket')
+        logger.info('Document similarity matrix saved to bucket')
 
 
 if __name__ == '__main__':
+    log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    logging.basicConfig(level=logging.INFO, format=log_fmt)
+
     load_dotenv(find_dotenv())
+
     scraper()
+
+# TODO: bug keeps reappearing: 'selenium.common.exceptions.ElementNotInteractableException: Message: Element <input type="text"> is not reachable by keyboard'

@@ -1,3 +1,6 @@
+# local package
+-e .
+
 # General tools
 pandas~=1.3.4
 numpy~=1.21.3
