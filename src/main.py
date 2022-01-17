@@ -37,7 +37,8 @@ def main():
 
     # Create the app
  #   mapbox_access_token = st.secrets["MAPBOX_ACCESS_TOKEN"]
-    mapbox_access_token = os.getenv("MAPBOX_ACCESS_TOKEN")
+    mapbox_access_path = os.getenv("MAPBOX_ACCESS_PATH")
+    mapbox_access_token = open(mapbox_access_path).read()
 
     create_app(cineman_df=cineman_df, movie_desc=movie_desc, all_movies_desc=all_movies_corpus,
                similarities_df=doc_similarities, MAPBOX_ACCESS_TOKEN=mapbox_access_token)
