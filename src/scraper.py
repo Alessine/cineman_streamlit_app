@@ -27,7 +27,7 @@ def scraper():
 
     # Getting credentials
     tmdb_credentials_path = os.getenv("TMDB_CREDENTIALS_PATH")
-    logger.info('TMDB credentials fetched')
+    logger.info('TMDB credentials path fetched')
 
     # Create connection to AWS S3 Bucket
     fs = s3fs.S3FileSystem(anon=False)
