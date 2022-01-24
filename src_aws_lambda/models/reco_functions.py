@@ -1,5 +1,4 @@
 from gensim.models import FastText
-import pickle
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np

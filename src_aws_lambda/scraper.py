@@ -6,9 +6,7 @@ from dotenv import find_dotenv, load_dotenv
 import os
 from datetime import date
 import logging
-import time
 import pandas as pd
-import pickle
 
 import data.cineman_scraping as cs
 from data.tmdb_api import get_specific_movie_overviews
@@ -70,12 +68,8 @@ def scraper():
     all_movies_corpus.to_csv(data_path_comb_corpus)
 
     # Tokenize the corpus and train the model
-    # ft_model_path = "s3://zmr-streamlit-aws/models/fast_text_model.sav"
     tokenized_docs, ft_model = rf.train_ft_model(norm_movie_desc)
     logger.info("Model training finished")
-
-    #pickle.dump(ft_model, fs.open(ft_model_path, 'wb'))
-    #logger.info('Retrained model saved to bucket')
 
     # Calculate document vectors and similarities
     doc_similarities = rf.calc_cosine_similarity(corpus=tokenized_docs, model=ft_model, num_features=300)
@@ -90,4 +84,3 @@ if __name__ == '__main__':
     load_dotenv(find_dotenv())
 
     scraper()
-

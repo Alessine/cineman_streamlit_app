@@ -2,7 +2,6 @@ import requests
 import json
 import gzip
 import pandas as pd
-from urllib.request import urlretrieve
 from urllib.error import HTTPError
 from datetime import date, timedelta
 import s3fs
