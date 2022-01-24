@@ -70,7 +70,7 @@ def scraper():
     all_movies_corpus.to_csv(data_path_comb_corpus)
 
     # Tokenize the corpus and train the model
-    ft_model_path = "s3://zmr-streamlit-aws/models/fast_text_model.sav"
+    # ft_model_path = "s3://zmr-streamlit-aws/models/fast_text_model.sav"
     tokenized_docs, ft_model = rf.train_ft_model(norm_movie_desc)
     logger.info("Model training finished")
 
