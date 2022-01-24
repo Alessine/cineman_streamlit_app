@@ -47,38 +47,40 @@ def scraper():
     movie_desc.to_csv(data_path_desc)
     logger.info('Second data file saved to bucket')
 
-    # If the model is more than a week old, create the new corpus and retrain the model
+    # Create the new corpus and retrain the model
     data_path_doc_sims = "s3://zmr-streamlit-aws/models/document_similarities.csv"
     data_path_comb_corpus = "s3://zmr-streamlit-aws/data/processed/comb_movie_corpus.csv"
 
-    if time.time() - fs.modified(data_path_doc_sims).timestamp() > 600000:
-        logger.info('Retraining model')
-        # Try loading saved processed data on old movies
-        data_path_5000_proc = "s3://zmr-streamlit-aws/data/processed/tmdb_5000_movies_proc.csv"
-        try:
-            movie_desc_5000 = pd.read_csv(data_path_5000_proc)
-        # If this processed file doesn't exist yet, create it from the external data file from kaggle
-        except FileNotFoundError:
-            data_path_5000_ext = "s3://zmr-streamlit-aws/data/external/tmdb_5000_movies.csv"
-            movies_kaggle = pd.read_csv(data_path_5000_ext)
-            movie_desc_5000 = cp.process_kaggle_tmdb_dataset(kaggle_file=movies_kaggle)
-            movie_desc_5000.to_csv(data_path_5000_proc)
 
-        # Create the corpus
-        all_movies_corpus, norm_movie_desc = cp.generate_movie_corpus(old_movies_desc=movie_desc_5000,
-                                                                   recent_movies_desc=movie_desc)
-        all_movies_corpus.to_csv(data_path_comb_corpus)
+    #logger.info('Retraining model')
+    # Try loading saved processed data on old movies
+    data_path_750_proc = "s3://zmr-streamlit-aws/data/processed/tmdb_750_movies_proc.csv"
+    try:
+        movie_desc_750 = pd.read_csv(data_path_750_proc)
+    # If this processed file doesn't exist yet, create it from the external data file from kaggle
+    except FileNotFoundError:
+        data_path_750_ext = "s3://zmr-streamlit-aws/data/external/tmdb_750_movies.csv"
+        movies_kaggle = pd.read_csv(data_path_750_ext)
+        movie_desc_750 = cp.process_kaggle_tmdb_dataset(kaggle_file=movies_kaggle)
+        movie_desc_750.to_csv(data_path_750_proc)
 
-        # Tokenize the corpus and train the model
-        ft_model_path = "s3://zmr-streamlit-aws/models/fast_text_model.sav"
-        tokenized_docs, ft_model = rf.train_ft_model(norm_movie_desc)
-        pickle.dump(ft_model, fs.open(ft_model_path, 'wb'))
-        logger.info('Retrained model saved to bucket')
+    # Create the corpus
+    all_movies_corpus, norm_movie_desc = cp.generate_movie_corpus(old_movies_desc=movie_desc_750,
+                                                               recent_movies_desc=movie_desc)
+    all_movies_corpus.to_csv(data_path_comb_corpus)
 
-        # Calculate document vectors and similarities
-        doc_similarities = rf.calc_cosine_similarity(corpus=tokenized_docs, model=ft_model, num_features=300)
-        doc_similarities.to_csv(data_path_doc_sims)
-        logger.info('Document similarity matrix saved to bucket')
+    # Tokenize the corpus and train the model
+    ft_model_path = "s3://zmr-streamlit-aws/models/fast_text_model.sav"
+    tokenized_docs, ft_model = rf.train_ft_model(norm_movie_desc)
+    logger.info("Model training finished")
+
+    #pickle.dump(ft_model, fs.open(ft_model_path, 'wb'))
+    #logger.info('Retrained model saved to bucket')
+
+    # Calculate document vectors and similarities
+    doc_similarities = rf.calc_cosine_similarity(corpus=tokenized_docs, model=ft_model, num_features=300)
+    doc_similarities.to_csv(data_path_doc_sims)
+    logger.info('Document similarity matrix saved to bucket')
 
 
 if __name__ == '__main__':
