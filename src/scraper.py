@@ -91,4 +91,3 @@ if __name__ == '__main__':
 
     scraper()
 
-# TODO: bug keeps reappearing: 'selenium.common.exceptions.ElementNotInteractableException: Message: Element <input type="text"> is not reachable by keyboard'

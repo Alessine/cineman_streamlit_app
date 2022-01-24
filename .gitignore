@@ -3,6 +3,7 @@
 # Credentials
 .mapbox_token
 *credentials.yml
+TODOs.py
 
 # Zipped data files
 *.gz
