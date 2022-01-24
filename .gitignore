@@ -23,8 +23,7 @@
 *.tax2010
 *.vcf
 *.xml
-/data/processed/*
-/data/external/*
+/data
 
 __pycache__/
 *.py[cod]
