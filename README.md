@@ -1,7 +1,7 @@
 Zurich Movie Recommender
 ==============================
 
-![](theatre_seats.jpg)
+![](reports/theatre_seats.jpg)
 Foto by [Denise Jans](https://unsplash.com/@dmjdenise)
 
 Purpose
