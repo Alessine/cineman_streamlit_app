@@ -4,6 +4,7 @@
 .mapbox_token
 .streamlit
 *credentials.yml
+*.pem
 */TODOs.py
 
 # Zipped data files
