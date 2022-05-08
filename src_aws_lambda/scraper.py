@@ -8,7 +8,7 @@ from datetime import date
 import logging
 import pandas as pd
 
-import data.cineman_scraping as cs
+import data.cineman_scraping_chrome as cs
 from data.tmdb_api import get_specific_movie_overviews
 import features.corpus_prep as cp
 import models.reco_functions as rf

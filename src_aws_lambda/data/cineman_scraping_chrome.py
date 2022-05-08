@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
@@ -31,20 +31,15 @@ def scrape_cineman(cities=("Zürich")):
     # Open the driver and go to the page with the showtimes
   #  display = Display(visible=0, size=(800, 600))
   #  display.start()
-    options = FirefoxOptions()
+    options = Options()
     options.add_argument("--headless")
-    driver = webdriver.Firefox(options=options)
-    driver.get("https://www.cineman.ch/en/showtimes/city/")
-    time.sleep(20)  # have to wait for the advertisement to end
+    driver = webdriver.Chrome(options=options)
+    driver.get("https://www.cineman.ch/en/showtimes/time/")
 
     # Click the cookie button
     cookie_button = driver.find_element_by_class_name("cc-btn")
     cookie_button.click()
-    time.sleep(10)
-
-    # Sort the showtimes by time
-    sorting_buttons = driver.find_elements_by_class_name("text-overflow-hidden")
-    sorting_buttons[2].click()
+    time.sleep(2)
 
     # Click the region dropdown, select the city and save
     region_dropdown = driver.find_element_by_class_name("selectize-control")
@@ -57,6 +52,7 @@ def scrape_cineman(cities=("Zürich")):
 
     save_button = driver.find_element_by_class_name("select-region-save")
     save_button.click()
+    time.sleep(5)
 
     # Scrape the content and close the driver
     content = BeautifulSoup(driver.page_source, features="html.parser")
