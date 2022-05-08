@@ -6,7 +6,6 @@ import pandas as pd
 import time
 from datetime import date
 import re
-#from pyvirtualdisplay import Display
 
 
 def is_time_format(str_input):
@@ -29,8 +28,6 @@ def scrape_cineman(cities=("Zürich")):
     - content: html code of the page scraped with BeautifulSoup
     """
     # Open the driver and go to the page with the showtimes
-  #  display = Display(visible=0, size=(800, 600))
-  #  display.start()
     options = Options()
     options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)

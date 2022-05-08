@@ -1,15 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
 import s3fs
-#from dotenv import find_dotenv, load_dotenv
-#import os
 from datetime import date
 import logging
 import pandas as pd
 
-import data.cineman_scraping as cs
+import data.cineman_scraping_chrome as cs
 from data.tmdb_api import get_specific_movie_overviews
 import features.corpus_prep as cp
 import models.reco_functions as rf
@@ -25,7 +22,7 @@ def scraper():
     tmdb_ids_file_path = "s3://zmr-streamlit-aws/data/external/tmdb_id_file.gz"
 
     # Getting credentials
-    tmdb_credentials_path = "home/ubuntu/src_aws_lambda/tmdb_credentials.yml"
+    tmdb_credentials_path = "./tmdb_credentials.yml"
     logger.info('TMDB credentials path fetched')
 
     # Create connection to AWS S3 Bucket
@@ -81,7 +78,4 @@ def scraper():
 if __name__ == '__main__':
     log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     logging.basicConfig(level=logging.INFO, format=log_fmt)
-
-    #load_dotenv(find_dotenv())
-
     scraper()
